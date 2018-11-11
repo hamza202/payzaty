@@ -1,0 +1,3684 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="description" content=" " />
+	<meta name="keywords" content=" " />
+    <!--  download ios app -->
+ 	<meta name="apple-itunes-app" content="app-id=284882215, affiliate-data=myAffiliateData, app-argument=https://itunes.apple.com/sa/app/facebook/id284882215?mt=8">
+
+  	<link href="img/favicon.png" rel="shortcut icon">
+	<title> Payzaty | Dashboard </title>
+    <!--   main   -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="plugins/OwlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel/css/owl.theme.default.min.css">
+    <!--  icons -->
+    <link rel="stylesheet" type="text/css" href="icons/fs/css/font-awesome.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="icons/io/style.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="icons/ui/styles.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="plugins/flags/css/flag-icon.css" media="all"/>
+    
+    <!-- date-picker-->
+	<link rel="stylesheet" href="plugins/bs-datetimepicker/css/bootstrap-datetimepicker.min.css">
+     <!-- slect-picker-->
+	<link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.css">
+    
+    
+    <!--  style -->
+    <link rel="stylesheet" type="text/css" href="css/build.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/global.css" media="all"/>
+    
+   <!--    ct-code -->
+   <link rel="stylesheet" href="plugins/intl-tel-input-master/build/css/intlTelInput.css">
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<link href="http://netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy">
+	<link href="vendor/respond.proxy.gif" id="respond-redirect" rel="respond-redirect">
+	<script src="vendor/respond.proxy.js"></script>
+	<![endif]-->
+ 
+    <!--  Responsive -->
+	<link rel="stylesheet" type="text/css"  href="css/responsive.css">
+
+</head>
+<body class="load-bg logged-user" >
+
+
+
+<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+       
+       <symbol id="icon-lang"  viewBox="0 0 512 512">
+            <title>Language</title>
+			<path   d="M425.7 345.2l-52.8-104.3c-1.8-3.6-5.5-5.8-9.3-5.8-4 0-7.6 2.2-9.3 5.8l-53.6 106.7c-2.6 5.1-.5 11.4 4.6 14.1 1.5.7 3.1 1.2 4.7 1.2 3.9 0 7.6-2.1 9.3-5.8l18.5-36.7h51.8l17.4 34.4c2.6 5.1 8.9 7.2 14.1 4.6 5.1-2.7 7.2-9 4.6-14.2zm-77.4-45.9l15.3-30.4 15.4 30.4h-30.7zM510.2 286c-5-32.8-21.1-63.3-45.2-85.9-45.6-42.6-112.2-52-167.2-25-8.3-74.5-71.4-132.8-148-132.8-40 0-77.5 15.4-105.8 43.6-28.4 28.2-44 65.8-44 105.9 0 40 15.6 77.6 44 105.8 28.2 28.1 65.9 43.6 105.8 43.6 23.2 0 45.2-5.4 64.8-14.9 6.7 61 50.5 112.6 110.9 128.6h.1c12.1 2.9 24.1 4.4 36.1 4.4 53.8 0 104.9-29.1 131.7-77.8 16-28.9 21.9-62.8 16.8-95.5zm-360.4 34.1c-70.9 0-128.7-57.5-128.7-128.4 0-70.7 57.8-128.4 128.7-128.4 70.6 0 128 57.6 128 128.4s-57.4 128.4-128 128.4zm325.3 51.3c-28.1 51.2-87.4 77.1-144.2 63.1-55.1-14.6-94-63.6-96-120.1 36.9-25.8 61.6-67.9 63.8-115.8 48.8-28.5 110.6-21.9 152.1 17 42.8 39.9 52.7 103.9 24.3 155.8zM202.7 446.8v-.1l-.3-1.2v-.1c-.1-.3-.2-.7-.4-1 0-.1-.1-.2-.2-.3l-.4-.7-.2-.3-.6-.9c-.2-.3-.5-.6-.8-.9l-.2-.2-.7-.6-.3-.2-.7-.5-.3-.2c-.3-.2-.7-.4-1-.5l-53.6-21.6c-5.3-2.2-11.4.4-13.6 5.8-2.2 5.4.4 11.4 5.8 13.6l35.9 14.5c-19.7 10.6-43.5 11.4-64.2 1.6h-.1c-26.1-12.1-42.6-38.7-42-68.1.1-5.8-4.4-10.6-10.3-10.7-5.8-.1-10.6 4.4-10.7 10.3-.9 37.7 20.4 72 54 87.6 12.6 6 26 8.9 39.4 8.9 11.4 0 22.9-2.2 33.7-6.4l-9.5 23.3c-2.2 5.4.4 11.5 5.8 13.6 1.3.5 2.6.7 4 .7 4.1 0 8.1-2.4 9.8-6.5l21.6-53 .1-.3c-.1-.1-.1-.2 0-.3.1-.3.2-.6.2-.8 0-.1 0-.2.1-.3.1-.4.1-.8.2-1.3v-1.5l-.1-.9c-.4-.4-.4-.4-.4-.5zM310 65.3v.1l.3 1.2v.1c.1.3.2.7.4 1 0 .1.1.2.2.3l.4.7.2.3.6.9c.2.3.5.6.8.9l.2.2.7.6.3.2.7.5.3.2c.3.2.7.4 1 .5l53.9 21.9c5.3 2.2 11.4-.4 13.6-5.8s-.4-11.4-5.8-13.6l-35.8-14.5c19.7-10.6 43.5-11.4 64.2-1.6h.1c26.1 12.1 42.6 38.7 42 68.1-.1 5.8 4.4 10.6 10.3 10.7h.2c5.7 0 10.4-4.5 10.5-10.3.8-37.8-20.4-72.2-54.1-87.7-23.4-11.1-49.7-11.7-73-2.5l9.5-23.3c2.2-5.4-.4-11.5-5.8-13.6-5.3-2.2-11.5.4-13.6 5.8l-21.6 53-.1.3s-.1.3-.1.4c-.1.3-.2.6-.2.8 0 .1 0 .2-.1.3-.1.4-.1.8-.2 1.3v1.5l.1.9c-.1.1-.1.1-.1.2zM224.2 218.3c-.9-.6-1.9-1-3-1h-43.2c-4.2-1.6-7.7-5.2-10.7-11-2.9-5.7-4.4-12.4-4.4-20v-2.6c0-10.6 3-18.3 9.1-22.9 6.1-4.7 14.5-7 25.1-7 3.7 0 7 .1 9.9.2 2.9.1 6.1.4 9.7.6 1.1.1 2.2 0 3.2-.5s1.5-1.5 1.5-3.1v-8.6c0-1.4-.4-2.4-1.3-2.9s-2.1-.9-3.7-1.2c-4.7-.7-8.8-1.1-12.2-1.3-3.4-.1-6.5-.2-9.4-.2-7.2 0-13.8.9-19.9 2.7-6.1 1.8-11.4 4.6-15.9 8.3-4.5 3.7-8 8.4-10.5 14.1-2.5 5.7-3.8 12.3-3.8 19.9v2.4c0 7.7.8 14.4 2.5 20 1.6 5.6 3.9 10 6.8 13.1h-73.3c-2 0-3.7.3-5.2.8-1.4.5-2.2 1.2-2.2 2v12.7c0 1 .7 1.8 2.2 2.3 1.4.5 3.2.8 5.2.8h140.6c1.1 0 2.2-.3 3-.9.9-.6 1.3-1.4 1.3-2.6v-11.4c-.1-1.2-.5-2.1-1.4-2.7z"> </path>
+        </symbol>
+        
+        
+        <symbol id="icon-setting"  viewBox="0 0 24 24">
+            <title>setting</title>
+			<path d="M12 7c-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5-2.238-5-5-5zm0 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3zm11-6h-2.523c-.105-.299-.227-.589-.361-.872l1.653-1.654c.391-.391.391-1.023 0-1.414l-2.829-2.829c-.391-.391-1.023-.391-1.414 0l-1.654 1.653c-.283-.134-.573-.255-.872-.361v-2.523c0-.553-.447-1-1-1h-4c-.553 0-1 .447-1 1v2.523c-.299.106-.589.227-.872.362l-1.654-1.654c-.391-.391-1.023-.391-1.414 0l-2.829 2.829c-.391.391-.391 1.023 0 1.414l1.653 1.654c-.134.283-.255.573-.361.872h-2.523c-.553 0-1 .447-1 1v4c0 .553.447 1 1 1h2.523c.105.299.227.589.361.872l-1.653 1.654c-.391.391-.391 1.023 0 1.414l2.828 2.828c.391.391 1.023.391 1.414 0l1.654-1.653c.284.135.574.256.873.362v2.523c0 .553.447 1 1 1h4c.553 0 1-.447 1-1v-2.523c.299-.105.589-.227.872-.361l1.654 1.653c.391.391 1.023.391 1.414 0l2.828-2.828c.391-.391.391-1.023 0-1.414l-1.653-1.654c.135-.283.256-.573.361-.872h2.524c.553 0 1-.447 1-1v-4c0-.554-.447-1.001-1-1.001zm-1 4h-3.101c-.171 1.182-.627 2.261-1.311 3.175l2.059 2.059-1.414 1.414-2.059-2.059c-.913.684-1.993 1.14-3.175 1.311v3.1h-2v-3.101c-1.182-.171-2.262-.627-3.175-1.311l-2.059 2.059-1.414-1.414 2.059-2.059c-.683-.913-1.139-1.992-1.309-3.174h-3.101v-2h3.101c.171-1.182.626-2.262 1.311-3.175l-2.059-2.058 1.414-1.414 2.059 2.059c.912-.684 1.992-1.141 3.174-1.311v-3.101h2v3.101c1.182.171 2.262.627 3.175 1.311l2.059-2.059 1.414 1.414-2.059 2.059c.684.913 1.14 1.993 1.311 3.175h3.1v1.999z"> </path>
+        </symbol>
+        
+        <symbol id="icon-smile" viewBox="0 0 1024 1024">
+            <title>smile</title>
+            <path   d="M16 12c.553 0 1-.672 1-1.5s-.447-1.5-1-1.5-1 .672-1 1.5.447 1.5 1 1.5zm-8 0c.553 0 1-.672 1-1.5s-.447-1.5-1-1.5-1 .672-1 1.5.447 1.5 1 1.5zm4-12c-6.628 0-12 5.373-12 12s5.372 12 12 12c6.627 0 12-5.373 12-12s-5.373-12-12-12zm0 22c-5.522 0-10-4.478-10-10s4.478-10 10-10 10 4.478 10 10-4.478 10-10 10zm6.482-7.875c-.479-.276-1.09-.112-1.366.366-1.104 1.913-2.907 2.509-5.116 2.509s-4.012-.596-5.116-2.509c-.276-.479-.888-.643-1.366-.366-.478.276-.642.888-.365 1.366 1.656 2.87 3.534 3.509 6.847 3.509s5.191-.639 6.848-3.509c.276-.478.112-1.09-.366-1.366z"></path>
+             
+        </symbol>
+                   
+        <symbol id="icon-shop-bag" viewBox="0 0 24 24">
+            <title>smile</title>
+            <path   d="M8.5 10c.827 0 1.5-.673 1.5-1.5s-.673-1.5-1.5-1.5-1.5.673-1.5 1.5.673 1.5 1.5 1.5zm0-2c.275 0 .5.224.5.5s-.225.5-.5.5-.5-.224-.5-.5.225-.5.5-.5zM15.5 10c.827 0 1.5-.673 1.5-1.5s-.673-1.5-1.5-1.5-1.5.673-1.5 1.5.673 1.5 1.5 1.5zm0-2c.275 0 .5.224.5.5s-.225.5-.5.5-.5-.224-.5-.5.225-.5.5-.5zM4.617 24h14.766c.426 0 .833-.182 1.117-.5s.421-.742.374-1.166l-1.778-16c-.084-.76-.725-1.334-1.491-1.334h-1.962l-.299-2.099c-.114-.812-.514-1.551-1.127-2.079-.613-.53-1.401-.822-2.217-.822-1.702 0-3.109 1.22-3.345 2.9l-.299 2.1h-1.961c-.766 0-1.406.574-1.49 1.334l-1.778 16c-.048.424.089.849.373 1.166s.691.5 1.117.5zm15.138-1.167c-.096.108-.229.167-.372.167h-14.766c-.144 0-.276-.059-.372-.167-.097-.107-.141-.246-.125-.389l.161-1.444h15.439l.161 1.444c.015.144-.029.282-.126.389zm-10.109-19.793c.166-1.182 1.156-2.04 2.354-2.04.576 0 1.131.206 1.563.579.43.37.711.889.791 1.461l.28 1.96h-5.268l.28-1.96zm-3.748 3.404c.028-.253.242-.444.497-.444h11.211c.255 0 .469.191.496.445l1.506 13.555h-15.216l1.506-13.556z"></path>
+             
+        </symbol>
+            
+        <symbol id="icon-invoice" viewBox="0 0 24 24">
+            <title>invoice</title>
+            <path   d="M4.735 23.941l1.645-.875 1.645.875c.073.039.154.059.234.059l.235-.059 1.642-.875 1.637.874c.146.079.323.079.471 0l1.64-.875 1.638.874c.146.079.324.079.471 0l1.634-.874 1.638.874c.155.083.342.078.493-.012.15-.089.242-.251.242-.427v-23c0-.176-.092-.338-.243-.429-.151-.09-.337-.096-.492-.013l-1.645.876-1.645-.875c-.146-.078-.323-.078-.47 0l-1.642.875-1.637-.874c-.146-.079-.323-.079-.471 0l-1.64.875-1.636-.876c-.146-.079-.324-.079-.471 0l-1.634.874-1.639-.874c-.154-.083-.341-.078-.492.012-.151.091-.243.253-.243.429v23c0 .176.092.338.243.429.15.09.335.094.492.012zm.265-22.608l1.138.607c.147.079.324.079.471 0l1.634-.874 1.638.874c.146.079.323.079.471 0l1.64-.875 1.637.874c.146.08.324.079.47 0l1.642-.875 1.645.875c.146.078.323.078.47 0l1.144-.606v21.334l-1.138-.607c-.147-.079-.324-.079-.471 0l-1.634.874-1.638-.874c-.146-.079-.323-.079-.471 0l-1.64.875-1.637-.874c-.146-.079-.323-.078-.47 0l-1.642.875-1.645-.875c-.072-.041-.154-.061-.234-.061l-.235.059-1.145.608v-21.334zM7.5 6h5c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-5c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 10h9c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-9c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 13h9c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-9c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 16h9c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-9c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 19h6c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-6c-.276 0-.5.224-.5.5s.224.5.5.5zM16.5 18h-1c-.276 0-.5.224-.5.5s.224.5.5.5h1c.276 0 .5-.224.5-.5s-.224-.5-.5-.5z"></path>
+             
+        </symbol>
+        
+                  
+        <symbol id="link-dash" viewBox="0 0 24 24">
+            <title> link</title>
+            <path  d="M1.509,22.631c0.912,0.912,2.11,1.368,3.309,1.368s2.396-0.456,3.309-1.368l5.506-5.506
+		c0.426-0.417,0.755-0.941,0.992-1.507c0.566-0.236,1.089-0.565,1.502-0.987l5.51-5.51c1.824-1.824,1.824-4.793,0-6.618l-0.14-0.139
+		c-1.824-1.824-4.793-1.824-6.617,0L9.373,7.87C8.948,8.286,8.619,8.809,8.382,9.376c-0.568,0.238-1.091,0.567-1.503,0.988
+		l-5.51,5.51C0.486,16.757,0,17.932,0,19.183s0.486,2.426,1.369,3.309L1.509,22.631z M15.586,3.071
+		c1.434-1.434,3.769-1.435,5.204,0.001l0.14,0.139c1.435,1.435,1.435,3.769,0,5.203l-5.514,5.514
+		c-0.363,0.371-0.824,0.665-1.332,0.849c-0.689,0.247-1.444,0.289-2.137,0.114c-0.661-0.154-1.243-0.479-1.73-0.967l-0.14-0.14
+		C9.66,13.368,9.37,12.88,9.196,12.336c0.267-0.208,0.578-0.33,0.938-0.333c0.128,0.397,0.352,0.766,0.669,1.092l0.126,0.116
+		c0.396,0.396,0.891,0.651,1.423,0.741c0.001,0,0.001,0,0.002,0c0.011,0.002,0.021,0.006,0.032,0.008
+		c0.138,0.024,0.289,0.037,0.427,0.037c0.687,0,1.333-0.265,1.859-0.763c0.005-0.003,0.008-0.007,0.013-0.011
+		c0.017-0.016,0.035-0.027,0.052-0.043l5.48-5.479C20.722,7.195,21,6.522,21,5.808c0-0.716-0.279-1.389-0.797-1.906l-0.126-0.117
+		c-1.02-1.021-2.768-1.012-3.777,0L11,9.082c-0.422-0.076-0.856-0.093-1.291-0.049c0.115-0.158,0.229-0.318,0.366-0.452
+		L15.586,3.071z M8.413,13.084c0.227,0.518,0.541,0.991,0.956,1.407l0.14,0.14c0.415,0.416,0.89,0.73,1.407,0.957l-4.916,4.916
+		c-0.63,0.633-1.708,0.655-2.376-0.014L3.5,20.378c-0.326-0.333-0.498-0.745-0.498-1.19c0-0.453,0.171-0.863,0.494-1.187
+		L8.413,13.084z M14.592,11.91c-0.227-0.518-0.541-0.992-0.957-1.408l-0.14-0.139c-0.416-0.416-0.891-0.731-1.406-0.957l4.916-4.916
+		c0.633-0.632,1.708-0.654,2.376,0.013l0.126,0.117C19.826,4.938,20,5.359,20,5.808s-0.175,0.87-0.491,1.187L14.592,11.91z
+		 M2.076,16.581l5.514-5.514c0.362-0.371,0.823-0.665,1.331-0.85c0.689-0.247,1.446-0.287,2.138-0.113
+		c0.66,0.153,1.242,0.479,1.73,0.968l0.14,0.139c0.416,0.417,0.706,0.905,0.88,1.448c-0.267,0.207-0.578,0.329-0.938,0.332
+		c-0.13-0.407-0.354-0.777-0.668-1.09l-0.126-0.117c-0.395-0.395-0.888-0.649-1.418-0.74c-0.002,0-0.003-0.001-0.005-0.001
+		c-0.011-0.002-0.022-0.006-0.033-0.008c-0.819-0.144-1.646,0.126-2.28,0.723c-0.009,0.006-0.016,0.013-0.025,0.02
+		C8.3,11.792,8.283,11.8,8.269,11.814l-5.48,5.479c-0.507,0.507-0.787,1.18-0.787,1.894c0,0.702,0.278,1.373,0.8,1.907l0.126,0.116
+		c0.507,0.507,1.176,0.786,1.884,0.786c0.714,0,1.387-0.279,1.894-0.786l5.295-5.294c0.267,0.048,0.537,0.081,0.812,0.081
+		c0.163,0,0.325-0.025,0.488-0.042c-0.116,0.161-0.232,0.322-0.371,0.459l-5.51,5.51c-1.434,1.433-3.768,1.435-5.203,0l-0.14-0.14C1.382,21.09,1,20.166,1,19.183S1.382,17.275,2.076,16.581z"> </path> 
+             
+        </symbol>
+        
+        <symbol id="link-plus" viewBox="0 0 24 24">
+            <title> plus </title>
+          <path d="M22.5,12H12V1.5C12,1.224,11.776,1,11.5,1S11,1.224,11,1.5V12H0.5C0.224,12,0,12.224,0,12.5S0.224,13,0.5,13
+	H11v10.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V13h10.5c0.276,0,0.5-0.224,0.5-0.5S22.776,12,22.5,12z"> </path>
+             
+        </symbol>
+        
+        
+        <symbol id="icon-arrow-left" viewBox="0 0 1024 1024">
+            <title>arrow-left</title>
+            <path d="M22.521 9h-2.034c-.105-.296-.228-.589-.366-.877l1.44-1.44c.279-.28.434-.651.434-1.046 0-.396-.154-.767-.434-1.046l-2.15-2.151c-.56-.558-1.534-.558-2.092 0l-1.44 1.44c-.289-.138-.583-.261-.879-.366v-2.035c0-.815-.664-1.479-1.479-1.479h-3.041c-.816 0-1.48.664-1.48 1.479v2.035c-.296.105-.59.228-.878.366l-1.44-1.44c-.558-.558-1.532-.559-2.092 0l-2.15 2.15c-.28.28-.434.651-.434 1.046s.154.766.434 1.046l1.44 1.44c-.139.289-.261.582-.366.878h-2.035c-.815 0-1.479.664-1.479 1.479v3.042c0 .815.664 1.479 1.479 1.479h2.034c.105.295.228.589.366.878l-1.44 1.439c-.279.279-.434.65-.434 1.046s.153.767.434 1.047l2.15 2.15c.56.56 1.536.558 2.092 0l1.44-1.44c.29.139.584.261.879.366v2.034c0 .816.664 1.48 1.479 1.48h3.041c.816 0 1.48-.664 1.48-1.479v-2.034c.295-.105.589-.228.878-.366l1.439 1.44c.558.558 1.533.56 2.093 0l2.15-2.15c.28-.28.434-.651.434-1.047s-.154-.767-.434-1.045l-1.44-1.44c.139-.289.261-.583.366-.878h2.034c.816-.001 1.48-.665 1.48-1.48v-3.042c0-.815-.664-1.479-1.479-1.479zm.479 4.521c0 .264-.215.479-.479.479h-2.396c-.22 0-.413.144-.478.354-.145.468-.339.936-.579 1.389-.103.193-.066.432.089.587l1.696 1.697c.091.09.141.21.141.337 0 .129-.05.249-.141.34l-2.15 2.15c-.182.182-.496.182-.678 0l-1.696-1.696c-.154-.155-.395-.191-.587-.089-.453.24-.921.435-1.389.579-.209.064-.353.257-.353.477v2.396c0 .264-.215.479-.479.479h-3.041c-.265 0-.48-.215-.48-.479v-2.396c0-.22-.144-.413-.354-.478-.468-.145-.936-.339-1.389-.579-.073-.039-.153-.058-.233-.058-.13 0-.258.051-.354.146l-1.696 1.696c-.182.182-.496.182-.678 0l-2.15-2.15c-.091-.091-.141-.211-.141-.34 0-.127.05-.247.141-.338l1.696-1.696c.155-.155.191-.394.089-.587-.24-.453-.435-.921-.579-1.389-.064-.208-.257-.352-.477-.352h-2.396c-.264 0-.479-.215-.479-.479v-3.042c0-.264.215-.479.479-.479h2.396c.22 0 .413-.143.478-.353.145-.47.339-.937.578-1.388.104-.194.067-.433-.088-.588l-1.697-1.696c-.09-.091-.14-.211-.14-.339s.05-.248.141-.339l2.15-2.15c.182-.182.496-.181.678 0l1.696 1.696c.154.155.394.19.588.088.45-.239.918-.434 1.388-.578.209-.064.353-.258.353-.478v-2.396c0-.264.215-.479.479-.479h3.041c.265 0 .48.215.48.479v2.396c0 .22.144.414.354.478.47.145.938.339 1.388.578.194.102.434.067.588-.088l1.696-1.696c.182-.181.496-.181.678 0l2.15 2.151c.091.09.141.21.141.338s-.05.248-.141.339l-1.696 1.696c-.155.155-.191.394-.088.588.239.451.434.918.578 1.388.064.21.257.353.477.353h2.396c.264 0 .479.215.479.479v3.042zM12 5c-3.859 0-7 3.14-7 7 0 3.859 3.141 7 7 7s7-3.141 7-7c0-3.86-3.141-7-7-7zm0 13c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6z"></path>
+        </symbol>
+    </defs>
+</svg>
+
+
+
+	<!-- Preloader -->
+	<div id="loader-wrapper">
+		<div id="loader" class="loader">
+			<div class="loader__figure">
+ 				<div class="loader-box">
+				  <img src="img/logo.svg" alt="logo">
+				</div>
+			</div>
+		</div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+
+
+
+
+
+<div class="wrap">
+
+
+    <div id="header" class="header-main header-inner-logged " >
+ 		<div class="scroll-fixed navbar navbar-default"  >
+ 
+ 						
+			 
+ 
+    <div class="top-header">
+    	
+        <div class="container-fluid">
+        	 
+        		<div class="navbar-header">
+        				<a href="index.html" class="show-header-fix navbar-brand" ><img src="img/logo-w.svg" alt="logo" />
+        				<img src="img/payzaty.svg" alt="payzaty">
+        				</a>
+			  
+			</div>
+      	
+      	
+      
+      	
+      	  <ul class="main-nav-list-normal">
+        	    
+        	    
+      		 	     <li class="user-acc   dropdown contact-dropdown">
+      		 	     
+      		 	     <a class="call-us"  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+      	            <span class="icon ion-ios-email"> </span>
+      	            
+       	            <span> Contact Us 24/7 </span>
+       	           <span class="arrow ion-ios-arrow-down"></span>
+       	           </a>
+       	           
+  
+   
+  <div class="dropdown-menu" aria-labelledby="dLabel">
+  
+  <div class="col-md-5">
+  	<h3 class="box-title"> Call Us </h3>
+  	 
+  	 <ul class="list-unstyled" >
+  	 	<li> <div class="title"> Call Our Support 24/7</div>
+			<div class="cont-txt"> <a href="tel:+96594455314" > 965-94455314 </a> </div>
+  	 	  </li>
+  	 	  
+  	 	  
+  	 	  <li> <div class="title"> Send Via WhatsApp</div>
+			<div class="cont-txt">  <a href="whatsapp://send?abid=+96594455314&text=Hello%2C%20World!
+" > 965-94455314 </a> </div>
+  	 	  </li>
+  	 	  
+  	 	  <li> <div class="title"> Send Via Email</div>
+			<div class="cont-txt"> <a href="mailto:info@payzaty.com" > info@payzaty.com </a> </div>
+  	 	  </li>
+  	 	  
+  	 </ul>
+  	 
+  </div>
+   
+   
+   
+  <div class="col-md-7 contact">
+  	<h3 class="box-title"> Contact Us </h3>
+  	
+  	
+	   <div class="reg-box-cont">
+	 	 
+    		
+	 			  
+	 			  	<form role="form" id="signinForm" method="post" action="">
+    
+   
+    
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+      
+ 
+   
+       <div class="form-group clearfix req-opt">
+    <label class="form-label" for="f1">  Your email </label>
+    <input class="form-control" type="text"  id="f1" value="" dir="auto" name="f1" required="" placeholder=" Your email ">
+   </div> 
+  
+          
+   
+       <div class="form-group clearfix req-opt">
+    <label class="form-label" for="password">  Message</label>
+		   <textarea class="form-control"   dir="auto"  required="" rows="8" placeholder="Message "> </textarea>
+  </div> 
+      
+      
+   
+          
+        
+         
+         
+         
+      
+         
+         <div class="app-btn-cont   clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >   Send  </button>
+    
+         </div>
+         
+          
+    		
+    </div>
+    
+    
+    
+</div>
+   
+  
+</form>
+</div>
+	 		 
+	 		 
+  </div>
+   
+   
+   
+  </div>
+</li> 
+			  
+       				
+       				
+        	    <li class=" help-dropdown">
+  <a  href="help.html"  >
+     <span class="icon ion-android-alert" > </span>
+   </a>
+   
+</li> 
+		    
+        	    <li class="dropdown notifications-dropdown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <span class="icon ion-android-notifications-none" > </span>
+   </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li class="dropdown-profile-cont" > 
+        <div class="user-profile-in">
+         
+     <h4   >  Notifications </h4>
+     
+         </div>   
+        
+        
+      
+        
+        
+        
+     </li>
+   <li>  <a class="pb15">
+   	You have no notifications.
+   </a> </li>
+   
+  </ul>
+</li> 
+			  
+       	       
+        	    <li class="dropdown notifications-dropdown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <span class="icon ion-android-notifications-none" > </span>
+     <span class="badge">4</span>
+   </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li class="dropdown-profile-cont" > 
+        <div class="user-profile-in">
+         
+     <h4   >  Notifications </h4>
+     
+         </div>   
+        
+        
+      
+        
+        
+        
+     </li>
+   <li>  
+     <div class="notifications-box">
+     	<div class="media">
+     		<div class="media-left">
+     			<div class="icon ion-alert-circled">
+     				
+     			</div>
+     		</div>
+     		
+     		<div class="media-body">
+     			There’s a problem with your account.
+     		</div>
+     	</div>
+     	
+     	<div class="add-more">
+    			
+    			
+    				<a class="add-more-bank-btn" role="button" data-toggle="collapse" href="#collapse-cust-img-1" aria-expanded="false" aria-controls="collapse-cust-img-1"> 
+     				<span> Upload Identity card or driving license from the front </span>
+    				</a>
+    			</div>
+    			
+    			
+     </div>  </li>
+         
+         
+          <li>  
+     <div class="notifications-box">
+     	<div class="media">
+     		<div class="media-left">
+     			<div class="icon ion-alert-circled">
+     				
+     			</div>
+     		</div>
+     		
+     		<div class="media-body">
+     			There’s a problem with your account.
+     		</div>
+     	</div>
+     	 	
+     </div>  </li>
+       
+       
+       
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      
+       
+       
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+   
+  </ul>
+</li> 
+			  
+       	    
+       	    
+        	    <li class="dropdown user-dropdown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <span class="icon icon-ui-user-3" > </span>
+     <span class="user-name" > Mohammed    </span>
+     <span class="arrow ion-ios-arrow-down"></span>
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li class="dropdown-profile-cont" > 
+        <div class="user-profile-in">
+        	<span class="icon icon-ui-user-3" > </span>
+     <span class="user-name" > Mohammed Moghani </span>
+         </div>   
+        
+        
+         
+        <div class="customer-id"><span>Merchant Code</span>: 150113</div>
+        
+        
+        
+     </li>
+   <li><a href="user-setting.html"> Account Setting </a> </li>
+   <li><a href="index.html">    Log Out </a> </li>
+  </ul>
+</li> 
+        				 
+         			   </ul>
+       		 
+       		<ul class="user-acc-opt">
+     		 	 		
+        				<li class="user-acc lang" >  
+       			       <a href="#">   
+        			 <span> العربية </span>
+       				        
+        				        <span class="icon"> 
+     		 	 	       <svg role="img" title="language"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-lang"></use></svg>
+      		 	     </span>
+      		 	             
+       			  
+       			        </a>
+       			        </li>
+        			   
+       		 </ul>
+      		 
+       		  	     		 
+       		 
+       	 
+        </div>
+        
+    </div>
+     
+        <div class="bot-header">
+        	<div class="container-fluid">
+        		 <div id="navbar1" class="navbar-collapse collapse">
+        
+<div class="close-row" data-toggle="collapse" data-target="#navbar1" aria-expanded="true" aria-controls="navbar1">
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+   			     		
+   			     		
+       <div class="main-nav"> 
+        
+        
+        	 
+        	<nav class="nav navbar-nav" >
+        	    
+        	    
+        	                                                    
+        	    
+        	    	
+        	    <ul class="main-nav-list-normal">
+         				<li class=" animated fadeInDown"> <a href="dashboard.html "  >    Dashboard      </a> </li>
+         				
+         				     	    <li class="dropdown  animated fadeInDown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Invoices
+    <span class="ion-ios-arrow-down"></span>
+  </a>
+  
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a href="invoices-status.html"> <span class="status status-paid "> Paid Invoices </span> </a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-transfered "> Transfered Amount </span></a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-reserved  "> Reserved Invoices  </span></a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-pending   "> Pending Invoices   </span></a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-refunded   "> Refunded   </span> </a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-cancelled  "> Cancelled  </span> </a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-expired  "> Expired  </span> </a> </li>
+  </ul>
+  
+   
+</li> 
+      				
+      				
+    
+       				
+       				
+        				<li class=" animated fadeInDown"> <a href="create-invoice.html"  >    Quick invoice     </a> </li>
+        				
+        				    <li class="dropdown  animated fadeInDown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    API
+    <span class="ion-ios-arrow-down"></span>
+  </a>
+  
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a href="#">  E-Commerce Documentation </a> </li>
+ 
+  </ul>
+  
+   
+</li> 
+       				
+       				
+          				<li class=" animated fadeInDown"> <a href="customers.html"  >     Customers     </a> </li>
+          				
+          					
+          				<li class=" animated fadeInDown"> <a href="transaction-fees.html"  > Transaction Fees </a> </li>
+          				
+          					
+          				<li class=" animated fadeInDown"> <a href="contact.html"  >     Contcat Us      </a> </li>
+          				
+          				
+          				
+         			   </ul>
+       		 
+       		 
+       	
+        		 
+        		  
+        		  <ul class="user-acc-opt">
+     		 	 		
+        				<li class="user-acc lang">  
+       			       <a href="#">   
+        			 <span> العربية </span>
+       				        
+        				        <span class="icon"> 
+     		 	 	       <svg role="img" title="language"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-lang"></use></svg>
+      		 	     </span>
+      		 	             
+       			  
+       			        </a>
+       			        </li>
+        			   
+       		 </ul>
+        		  
+        	 
+         	
+         	
+				</nav>
+        	  
+        	 
+       </div>
+
+     
+     
+      </div>
+        
+        <div class="mob-logged-cont">
+        	<div class="user-name">
+      		   
+    			Logged in as:	 <p>Mohammed.  </p>
+   				</div>
+   				
+   				<a href="#" class="user-acc lang">   
+        			 <span> العربية </span>
+       				        
+        				        <span class="icon"> 
+     		 	 	       <svg role="img" title="language"><use xlink:href="#icon-lang"></use></svg>
+      		 	     </span>
+      		 	             
+       			  
+       			        </a>
+       			        <div class="clearfix-xs"></div>
+        </div>
+        <div class="mob-breadcrumb">
+        	 
+        	 <ol class="breadcrumb">
+  <li><a href="#">Dashboard</a></li>
+   <li class="active">Active page title</li>
+</ol>
+     
+       
+       		<div class="side-nav-header hidden-md hidden-lg">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+       
+         <span class="side-nav-header-cont" >
+         	 <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+         </span>
+         
+            <span class="side-nav-header-txt"> Menu </span>
+            
+        </button>
+  	
+				 
+						
+      </div>
+      <div class="clearfix-xs"></div>
+      
+        </div>
+        
+        	</div>
+        </div>   
+        
+			 			
+   </div>
+<!-- End Header -->
+
+	</div>
+
+
+ 
+ 
+
+	<div id="content">
+
+
+   <div class="summary-section">
+   	<div class="container">
+   		<div class="row">
+   			<div class="col-md-7 hidden-xs hidden-sm">
+   	  	
+   				<div class="d-inline-block v-middle" data-to-tip="Change you photo" >
+   					
+   				
+   			     		 <div class="user-avatar"  role="button" data-toggle="collapse" href="#collapse-box-1" aria-expanded="false" aria-controls="collapse-box-1">
+   					<img src="img/image_2.JPG" alt="user-avatar">
+   				</div>
+  			     </div>		
+  			     		 
+  				
+  				
+  				
+  				
+   				<div class="user-name">
+    				 <p  > Hi Mohammed.  </p>
+   					 <p class="micro show user-comp-name" > 
+   					 <span> Alshrooq Company LTD.   </span>
+   					 <span data-to-tip="Verfied account" class="verfied" > </span>  </p>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-5">
+   				<ul class="list-unstyled list-inline action-user-list"  >
+   					<li> <a class="short-link-copy-btn" data-to-tip="Copy Short Link" > 
+   					<p id="short-link-copy" class="hide">  Hi, I'm short link </p>
+   					 <span class="icon" > 
+     		 	 	       <svg role="img"  title="setting"><use xlink:href="#link-dash"></use></svg>
+      		 	     </span>
+   					 <span class="title" > Payment link </span>
+   					</a> </li>
+   					
+   					
+   					
+   					<li> <a   role="button" data-toggle="collapse" href="#collapse-box-invoice-1" aria-expanded="false" aria-controls="collapse-box-invoice-1" > 
+   					 <span class="icon" > 
+     		 	 	       <svg role="img"  title="setting"><use xlink:href="#link-plus"></use></svg>
+      		 	     </span>
+   					 <span class="title" > Create invoice </span>
+   					</a> </li>
+   					
+   					
+   				</ul>
+   			</div>
+   		</div>
+   		
+   		<hr class="divider" >
+    	</div>
+   </div>
+   
+   
+   
+   
+    <div class="stats-section-box">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-3">
+ 				<div class="stats-item">
+ 					<div class="title">
+ 						Transfered Amount
+ 					</div>
+ 					
+ 					<div class="num">
+ 						7,526
+ 					</div>
+ 					<div class="note up">
+ 						24% Last week
+ 					</div>
+ 					
+ 				</div>
+ 			</div>
+ 			
+ 			
+ 			
+ 			<div class="col-md-3">
+ 				<div class="stats-item">
+ 					<div class="title">
+ 						Paid Invoices  
+ 					</div>
+ 					
+ 					<div class="num">
+ 						70,526 KWD
+ 					</div>
+ 					<div class="note down">
+ 						2% Last week
+ 					</div>
+ 					
+ 				</div>
+ 			</div>
+ 			
+
+
+
+				<div class="col-md-3">
+					<div class="stats-item">
+						<div class="title">
+							Reserved Invoices
+
+						</div>
+
+						<div class="num">
+							170,526 KWD
+						</div>
+					<div class="note down">
+							20% Last week
+						</div>
+
+					</div>
+				</div>
+				
+				
+				
+				
+
+
+				<div class="col-md-3">
+					<div class="stats-item">
+						<div class="title">
+							Total Customers
+
+						</div>
+
+						<div class="num">
+							170 
+						</div>
+						<div class="note up">
+							5% Last week
+						</div>
+
+					</div>
+				</div>
+ 			
+ 		</div>
+ 		
+  	</div>
+ </div>
+  
+  
+  
+   <div class="dashboard-section dashboard-page ">
+   	<div class="container">
+   		<div class="row">
+   			<div class="col-md-4">
+   				
+   				<div class="dashboard-box">
+   					
+   				 
+   					
+   					<div class="heading small center" >
+    			<h3 class="box-title">  Action </h3>
+     		</div>
+   				
+   				
+   				<div class="dashboard-item-circle">
+   					<div class="num">
+   					<div class="num-cont">
+   						
+   					
+  							<div class="num-title">
+  								Today
+  							</div>
+   							1,135
+   							
+   							<div class="num-curr">
+   								KWD
+   							</div>
+   					 </div>
+   						</div>
+   						
+   					 
+   				</div>
+   					
+   					
+   					<div class="dashboard-item-cont">
+   					<div class="dashboard-item">
+   						<div class="title">
+   							Invoices Sent
+   						</div>
+   						
+   						<div class="num">
+   							10,135 
+   						</div>
+   						<div class="type">
+   							KWD
+   						</div>
+   						
+   					</div>
+   					<div class="dashboard-item">
+   						<div class="title">
+   							Invoices Collect
+   						</div>
+   						
+   					 
+   						<div class="num">
+   							2,500   
+   						</div>
+   						
+   						<div class="type">
+   							KWD
+   						</div>
+   						
+   					</div>
+   					</div>
+   					 
+   					
+   				</div>
+   					
+   				<div class="dashboard-box dashboard-box-bank-credit">
+   					
+   				 
+   					
+   					<div class="heading small ">
+    			<h3 class="box-title">  Bank accounts and cards </h3>
+					</div>
+   			
+   			
+    			<ul class="bank-acc" >
+    				<li> <a  role="button" data-toggle="collapse" href="#collapse-bank-show-1" aria-expanded="false" aria-controls="collapse-bank-show-1"  > <span class="icon"><img src="img/k-bank.jpg" alt="bank"></span> <span> Bank of Kuwait x-1234 </span> </a> </li>
+    				<li> <a  role="button" data-toggle="collapse" href="#collapse-card-show-1" aria-expanded="false" aria-controls="collapse-card-show-1" > <span class="icon card">
+    					<img src="img/visa-logo.svg" alt="card">
+    				</span> <span> visa x-1234 </span> </a> </li>
+    			</ul>
+    			
+    			<div class="add-more">
+    			
+    			
+    				<a  class="add-more-bank-btn"   role="button" data-toggle="collapse" href="#collapse-bank-1" aria-expanded="false" aria-controls="collapse-bank-1"> 
+    				<span class="icon ion-plus-round" > </span>
+    				<span> Add a bank account  </span>
+    				</a>
+    			</div>
+    			
+    			
+    			<div class="add-more card">
+    				<a   class="add-more-bank-btn"  role="button" data-toggle="collapse" href="#collapse-card-1" aria-expanded="false" aria-controls="collapse-card-1"> 
+    				<span class="icon ion-plus-round" > </span>
+    				<span> Add  credit card </span>
+    				</a>
+    			</div>
+    			
+     		</div>
+   				
+   				
+   				 
+   					
+   			 
+   				</div>
+   				
+   		  
+   			<div class="col-md-8">
+   				
+   				
+   				<div class="dashboard-box">
+   					
+   				 
+   			 
+   			     
+   			     
+   					
+   					<div class="heading small heading-w-filter clearfix">
+    			<h3 class="box-title"> Paid Invoices </h3>
+    			
+    			<div class="filters-inner-item dropdown">
+					
+					
+					 
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-grid" > </span>
+    Filters
+   
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a href="#"> <span class="status status-paid "> Paid Invoices </span> </a> </li>
+   <li><a href="#"> <span class="status status-transfered "> Transfered Amount </span></a> </li>
+   <li><a href="#"> <span class="status status-reserved  "> Reserved Invoices  </span></a> </li>
+   <li><a href="#"> <span class="status status-pending   "> Pending Invoices   </span></a> </li>
+   <li><a href="#"> <span class="status status-refunded   "> Refunded   </span> </a> </li>
+   <li><a href="#"> <span class="status status-cancelled  "> Cancelled  </span> </a> </li>
+   <li><a href="#"> <span class="status status-expired  "> Expired  </span> </a> </li>
+  </ul>
+ 
+			
+				</div>
+				
+				
+					</div>
+   			
+   			     
+   			     <div class="complete-table">
+   			     	<div class="complete-row ">
+   			     	<div class="complete-row-summary clearfix"  data-toggle="collapse" data-target="#complete-row-1" aria-expanded="false" aria-controls="complete-row-1">
+   			     		
+   			     	
+   			     		<div class="col-md-1 np complete-date-cont">
+   			     			<div class="complete-date" >
+   			     			<span class="date-month ">Mar</span> 
+   			     			<span class="date-day">06</span> 
+   			     			<span class="date-year">2018</span>
+   			     			</div>
+   			     		</div>
+   			     		
+   			     		<div class="col-md-10">
+   			     			
+   			     			<div class="complete-side-cont">
+   			     				
+   			     			
+  			     		    <div class="complete-side">
+  			     		    	<div class="complete-title">
+   			     				Ahmed Alsaleh
+   			     			</div>
+   			     			<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num" >  +96596000000 </span>
+   			     			</div>
+  			     		    </div>
+   			     		    
+							<div class="complete-payment-type">
+							 <span class="icon card " > <img src="img/visa-logo.svg" alt="visa"> </span>
+							</div> 
+							
+							
+							<div class="complete-amount">
+							49.00 
+							<span> KWD </span>
+							</div>
+   			     		    
+   			     		    </div>
+   			     		    
+   			     		</div>
+   			     		
+   			     		<div class="col-md-1">
+   			     			<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+   			     		</div>
+   			     		
+   			        </div>
+   			     		
+   			     		<div class="complete-row-details clearfix collapse" id="complete-row-1">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-1" aria-expanded="false" aria-controls="complete-row-1">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			<div class=" clearfix ">
+   			     				<div class="col-md-5 col-md-offset-1">
+									 
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Invoice ID
+										</div>
+										<p>  #123245 </p>
+ 									</div>
+  			     				
+									
+									 
+<div class="complete-side">
+										<div class="complete-title">
+											Date & Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+ 			     				
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-6 complete-side-details-cont">
+   			     				
+   			     				
+									<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  76146066E2918750P0fd5sdf </p>
+ 									</div>
+
+  			     				
+   			     				
+   			     				<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+
+  			     				
+ 									
+ 									
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00 KWD‬</span></div>
+												</div>
+											</dd>
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num" >‪ 49.00 KWD‬</span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="dash-summary-opts-cont clearfix">
+    			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer"> </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     			 	
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download"> </span>
+   			     					<span> PDF </span>
+   			     				</a>
+   			     					
+   	 											
+   			     											
+   			     			 
+   			     												
+   			     				<a href="#" class="repeat-btn">
+   			     					<span class="icon ion-ios-refresh-outline"> </span>
+   			     					<span> Repeat </span>
+   			     				</a>
+   			     												
+   			     			  
+   			     				
+   			     			</div>
+   			     			</div>
+   			     		</div>
+    			     	</div>
+    			     	
+    			      	<div class="complete-row ">
+   			     	<div class="complete-row-summary clearfix"  data-toggle="collapse" data-target="#complete-row-2" aria-expanded="false" aria-controls="complete-row-2">
+   			     		
+   			     	
+   			     		<div class="col-md-1 np complete-date-cont">
+   			     			<div class="complete-date" >
+   			     			<span class="date-month ">Mar</span> 
+   			     			<span class="date-day">06</span> 
+   			     			<span class="date-year">2018</span>
+   			     			</div>
+   			     		</div>
+   			     		
+   			     		 <div class="col-md-10">
+   			     			
+   			     			<div class="complete-side-cont">
+   			     				
+   			     			
+  			     		    <div class="complete-side">
+  			     		    	<div class="complete-title">
+   			     				Saqer AlNasser
+   			     			</div>
+   			     			<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-ae"></span>
+   			     			<span class="num" >  +97196000000 </span>
+   			     			</div>
+  			     		    </div>
+   			     		    
+							<div class="complete-payment-type">
+							 <span class="icon card " > <img src="img/master.svg" alt="visa"> </span>
+							</div> 
+							
+							
+							<div class="complete-amount">
+							49.00 
+							<span> KWD </span>
+							</div>
+   			     		    
+   			     		    </div>
+   			     		    
+   			     		</div>
+   			     		
+   			     		<div class="col-md-1">
+   			     			<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+   			     		</div>
+   			     		
+   			     		
+   			        </div>
+   			     		
+   			     		<div class="complete-row-details clearfix collapse" id="complete-row-2">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-2" aria-expanded="false" aria-controls="complete-row-2">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-5 col-md-offset-1">
+									 
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Invoice ID
+										</div>
+										<p>  #123245 </p>
+ 									</div>
+  			     				
+									
+									 
+<div class="complete-side">
+										<div class="complete-title">
+											Date & Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+ 			     				
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-6 complete-side-details-cont">
+   			     				
+   			     				
+									<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  76146066E2918750P0fd5sdf </p>
+ 									</div>
+
+  			     				
+   			     				
+   			     				<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+
+  			     				
+ 									
+ 									
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00 KWD‬</span></div>
+												</div>
+											</dd>
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num" >‪ 49.00 KWD‬</span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="dash-summary-opts-cont clearfix">
+    			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer"> </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     			 	
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download"> </span>
+   			     					<span> PDF </span>
+   			     				</a>
+   			     					
+   	 											
+   			     											
+   			     			 
+   			     												
+   			     				<a href="#" class="repeat-btn">
+   			     					<span class="icon ion-ios-refresh-outline"> </span>
+   			     					<span> Repeat </span>
+   			     				</a>
+   			     												
+   			     			  
+   			     				
+   			     			</div>
+   			     			</div>
+   			     		</div>
+    			     	</div>
+    			     	
+    			     
+    			     		    	<div class="complete-row ">
+   			     	<div class="complete-row-summary clearfix"  data-toggle="collapse" data-target="#complete-row-3" aria-expanded="false" aria-controls="complete-row-3">
+   			     		
+   			     	
+   			     		<div class="col-md-1 np complete-date-cont">
+   			     			<div class="complete-date" >
+   			     			<span class="date-month ">Mar</span> 
+   			     			<span class="date-day">06</span> 
+   			     			<span class="date-year">2018</span>
+   			     			</div>
+   			     		</div>
+   			     		
+   			     		<div class="col-md-10">
+   			     			
+   			     			<div class="complete-side-cont">
+   			     				
+   			     			
+  			     		    <div class="complete-side">
+  			     		    	<div class="complete-title">
+   			     				John Deo
+   			     			</div>
+   			     			<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-us"></span>
+   			     			<span class="num" >  +17596000000 </span>
+   			     			</div>
+  			     		    </div>
+   			     		    
+							<div class="complete-payment-type">
+							 <span class="icon card " > <img src="img/visa-logo.svg" alt="visa"> </span>
+							</div> 
+							
+							
+							<div class="complete-amount">
+							49.00 
+							<span> KWD </span>
+							</div>
+   			     		    
+   			     		    </div>
+   			     		    
+   			     		</div>
+   			     		
+   			     		<div class="col-md-1">
+   			     			<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+   			     		</div>
+   			     		
+   			     		
+   			        </div>
+   			     		
+   			     		<div class="complete-row-details clearfix collapse" id="complete-row-3">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-3" aria-expanded="false" aria-controls="complete-row-3">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			  
+   			     			  <div class=" clearfix ">
+   			     				<div class="col-md-5 col-md-offset-1">
+									 
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Invoice ID
+										</div>
+										<p>  #123245 </p>
+ 									</div>
+  			     				
+									
+									 
+<div class="complete-side">
+										<div class="complete-title">
+											Date & Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+ 			     				
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-6 complete-side-details-cont">
+   			     				
+   			     				
+									<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  76146066E2918750P0fd5sdf </p>
+ 									</div>
+
+  			     				
+   			     				<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+
+  			     				
+   			     				
+ 									
+ 									
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00 KWD‬</span></div>
+												</div>
+											</dd>
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num" >‪ 49.00 KWD‬</span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			
+   			     			<div class="dash-summary-opts-cont clearfix">
+    			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer"> </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     			 	
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download"> </span>
+   			     					<span> PDF </span>
+   			     				</a>
+   			     					
+   	 											
+   			     											
+   			     			 
+   			     												
+   			     				<a href="#" class="repeat-btn">
+   			     					<span class="icon ion-ios-refresh-outline"> </span>
+   			     					<span> Repeat </span>
+   			     				</a>
+   			     												
+   			     			  
+   			     				
+   			     			</div>
+   			     			</div>
+   			     		</div>
+    			     	</div>
+    			     	
+    			     		
+    			     		<div class="complete-row ">
+   			     	<div class="complete-row-summary clearfix"  data-toggle="collapse" data-target="#complete-row-4" aria-expanded="false" aria-controls="complete-row-4">
+   			     		
+   			     	
+   			     		<div class="col-md-1 np complete-date-cont">
+   			     			<div class="complete-date" >
+   			     			<span class="date-month ">Mar</span> 
+   			     			<span class="date-day">06</span> 
+   			     			<span class="date-year">2018</span>
+   			     			</div>
+   			     		</div>
+   			     		
+   			     		<div class="col-md-10">
+   			     			
+   			     			<div class="complete-side-cont">
+   			     				
+   			     			
+  			     		    <div class="complete-side">
+  			     		    	<div class="complete-title">
+   			     				Ahmed Alsaleh
+   			     			</div>
+   			     			<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num" >  +96596000000 </span>
+   			     			</div>
+  			     		    </div>
+   			     		    
+							<div class="complete-payment-type">
+							 <span class="icon card " > <img src="img/visa-logo.svg" alt="visa"> </span>
+							</div> 
+							
+							
+							<div class="complete-amount">
+							49.00 
+							<span> KWD </span>
+							</div>
+   			     		    
+   			     		    </div>
+   			     		    
+   			     		</div>
+   			     		
+   			     		<div class="col-md-1">
+   			     			<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+   			     		</div>
+   			     		
+   			        </div>
+   			     		
+   			     		<div class="complete-row-details clearfix collapse" id="complete-row-4">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-4" aria-expanded="false" aria-controls="complete-row-4">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-5 col-md-offset-1">
+									 
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Invoice ID
+										</div>
+										<p>  #123245 </p>
+ 									</div>
+  			     				
+									
+									 
+<div class="complete-side">
+										<div class="complete-title">
+											Date & Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+ 			     				
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-6 complete-side-details-cont">
+   			     				
+   			     				
+									<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  76146066E2918750P0fd5sdf </p>
+ 									</div>
+
+  			     				
+   			     				
+   			     				
+ 									<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+
+  			     				
+ 									
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00 KWD‬</span></div>
+												</div>
+											</dd>
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num" >‪ 49.00 KWD‬</span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="dash-summary-opts-cont clearfix">
+    			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer"> </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     			 	
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download"> </span>
+   			     					<span>  PDF </span>
+   			     				</a>
+   			     					
+   	 											
+   			     											
+   			     			 
+   			     												
+   			     				<a href="#" class="repeat-btn">
+   			     					<span class="icon ion-ios-refresh-outline"> </span>
+   			     					<span> Repeat </span>
+   			     				</a>
+   			     												
+   			     			  
+   			     				
+   			     			</div>
+   			     			</div>
+   			     		</div>
+    			     	</div>
+    			     			
+    			     				
+    			     		  	<div class="complete-row ">
+   			     	<div class="complete-row-summary clearfix"  data-toggle="collapse" data-target="#complete-row-5" aria-expanded="false" aria-controls="complete-row-5">
+   			     		
+   			     	
+   			     		<div class="col-md-1 np complete-date-cont">
+   			     			<div class="complete-date" >
+   			     			<span class="date-month ">Mar</span> 
+   			     			<span class="date-day">06</span> 
+   			     			<span class="date-year">2018</span>
+   			     			</div>
+   			     		</div>
+   			     		
+   			     		 <div class="col-md-10">
+   			     			
+   			     			<div class="complete-side-cont">
+   			     				
+   			     			
+  			     		    <div class="complete-side">
+  			     		    	<div class="complete-title">
+   			     				Saqer AlNasser
+   			     			</div>
+   			     			<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-ae"></span>
+   			     			<span class="num" >  +97196000000 </span>
+   			     			</div>
+  			     		    </div>
+   			     		    
+							<div class="complete-payment-type">
+							 <span class="icon card " > <img src="img/master.svg" alt="visa"> </span>
+							</div> 
+							
+							
+							<div class="complete-amount">
+							49.00 
+							<span> KWD </span>
+							</div>
+   			     		    
+   			     		    </div>
+   			     		    
+   			     		</div>
+   			     		
+   			     		<div class="col-md-1">
+   			     			<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+   			     		</div>
+   			     		
+   			     		
+   			        </div>
+   			     		
+   			     		<div class="complete-row-details clearfix collapse" id="complete-row-5">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-5" aria-expanded="false" aria-controls="complete-row-5">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			  <div class=" clearfix ">
+   			     				<div class="col-md-5 col-md-offset-1">
+									 
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Invoice ID
+										</div>
+										<p>  #123245 </p>
+ 									</div>
+  			     				
+									
+									 
+<div class="complete-side">
+										<div class="complete-title">
+											Date & Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+ 			     				
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-6 complete-side-details-cont">
+   			     				
+   			     				
+									<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  76146066E2918750P0fd5sdf </p>
+ 									</div>
+
+  			     				
+   			     				
+   			     				
+									<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+
+  			     				
+   			     				
+   			     				
+ 									
+ 									
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00 KWD‬</span></div>
+												</div>
+											</dd>
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num" >‪ 49.00 KWD‬</span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="dash-summary-opts-cont clearfix">
+    			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer"> </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     			 	
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download"> </span>
+   			     					<span> PDF </span>
+   			     				</a>
+   			     					
+   	 											
+   			     											
+   			     			 
+   			     												
+   			     				<a href="#" class="repeat-btn">
+   			     					<span class="icon ion-ios-refresh-outline"> </span>
+   			     					<span> Repeat </span>
+   			     				</a>
+   			     												
+   			     			  
+   			     				
+   			     			</div>
+   			     			</div>
+   			     		</div>
+    			     	</div>
+ 		     	
+   			     </div>
+   			     
+   			     <p class="pico fw300 grey-cl pt15" > Views latest 5 Paid invoices </p>
+   			     
+   			     <div class="see-more">
+    				<a href="#" class="see-more-btn">
+     				<span> View all </span>
+    				</a>
+    			</div>
+    			 
+     		</div>
+     		
+     		
+     		
+   			</div>
+   		</div>
+   		
+   	</div>
+   </div>
+  
+  
+   
+     <!--	 footer-->
+	 	<div id="footer">
+ 
+		<div class="footer footer-in  ">
+	 
+			
+               
+				<div class="list-footer-box ">
+					
+			 
+               
+ 					<div class="container  ">
+ 					<div class="row">
+                
+                <div class="clearfix"></div> 
+               
+               
+                
+                 <div class="col-md-12 footer-logos">
+                  
+                 		<a href="index.html" class="p-f-logo"> <img src="img/logo-w.svg" alt=""> </a>
+                 		<span class="payment-logo" > 
+                 		<img src="img/knet.png" alt="knet">
+                 		<img src="img/visa-logo.svg" alt="visa">
+                 		<img src="img/master.svg" alt="master">
+                 		</span>
+                 		<div class="secure-logos">
+                 			<img src="img/secure/thawte.svg" alt="thawte">
+                 			<img src="img/secure/visa.svg" alt="visa">
+                 			<img src="img/secure/mater.svg" alt="mater">
+                 		</div>
+                  
+                 </div>
+                  
+                  
+                    <div class="clearfix"></div>
+					</div>
+					
+					
+					<div class="copyrights-cont clearfix">
+			 
+		 
+			   		
+			   			<p class="copyright">   2018 © Payzaty. All Rightd Reserved   <span class="flag-icon flag-icon-kw"></span> </p>
+			   	 
+			   	 
+			   	 <ul class="ul-footer-bot-list">
+			   	 	<li><a href="#"> Terms & Conditions  </a> </li>
+			   	 	<li><a href="#"> Privacy Policy    </a> </li>
+			   	 	<li><a href="#"> Site Map </a> </li>
+			   	 </ul>
+			   	 
+			   	 <ul class="sm-list">
+			   					<li> <a href="#" class="sm-fb"> <i class="fa fa-facebook"> </i> </a> </li>
+			   					<li> <a href="#" class="sm-tw"> <i class="fa fa-twitter"> </i></a> </li>
+			   					<li> <a href="#" class="sm-yt"> <i class="fa fa-youtube-play"> </i></a> </li>
+			   					<li> <a href="#" class="sm-ins"> <i class="fa fa-instagram"> </i></a> </li>
+			   					 
+			   				</ul>
+			   		 
+			  
+		 
+					
+				</div>
+			
+					
+ 					</div>
+
+				
+				</div>
+				
+				
+				
+
+			 
+		</div>
+	</div>
+ 
+
+	</div>
+    <!-- End Content -->
+	
+</div>
+
+
+  <!--  pop up collapse-->
+ 
+<div class="collapse upload-cust-img collapse-fixed-full  " id="collapse-cust-img-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-cust-img-1" aria-expanded="true" aria-controls="collapse-cust-img-1">
+  			     				<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+    	<div class="form-group clearfix req-opt ">
+       
+    
+      <div class="heading   center">
+    			<h3 class="box-title">  Upload a photo </h3>
+    			<p class="heading-p" >   Upload Identity card or driving license from the front  </p>
+     		</div>
+      
+ 					    
+       <div class="clearfix">
+       	<div class="card-avatar">
+   
+   		<img src="img/image_2.JPG" alt="user-avatar">
+   				</div>
+   				
+       </div>
+  
+    <span class="btn btn-default btn-file">
+    Upload your card  <input type="file" required="" name="f1" id="f1">
+    </span>
+    
+   </div>
+   
+   <p  class="heading-p nano grey-cl fw400"> A photo larger than 300 pixels works best. Most photos taken with a smartphone are the right size. </p>
+   
+    </div>
+</div>
+
+
+<!--change photo -->
+<div class="collapse upload-user-img collapse-fixed-full " id="collapse-box-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-box-1" aria-expanded="true" aria-controls="collapse-box-1">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+    	<div class="form-group clearfix req-opt ">
+       
+    
+      <div class="heading   center">
+    			<h3 class="box-title">  Choose a photo </h3>
+    			<p class="heading-p" > Your photo should clearly show your face so merchants and friends know it’s you. </p>
+     		</div>
+      
+ 					    
+       <div class="user-avatar">
+        <span class="icon icon-ui-user-3 "> </span>
+<!--        delete comment img when upload img-->
+   		<img src="img/image_2.JPG" alt="user-avatar">
+   				</div>
+   				
+  
+    <span class="btn btn-default btn-file">
+    Upload your logo  <input type="file" required="" name="f1" id="f1">
+    </span>
+    
+   </div>
+   
+   <p  class="heading-p nano grey-cl fw400"> A photo larger than 300 pixels works best. Most photos taken with a smartphone are the right size. </p>
+   
+    </div>
+</div>
+
+
+<div class="collapse bank-acc-box collapse-fixed-full    " id="collapse-bank-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-bank-1" aria-expanded="true" aria-controls="collapse-bank-1">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+     
+     <div class="reg-box-cont">
+	 			  	 
+	 			  	 <div class="heading   center">
+    			<h3 class="box-title">  Add a bank account </h3>
+    			<p class="heading-p">  Payzaty Payments that will help your bussiness sell manage and grow profitably
+
+ </p>
+     		</div>
+    		
+	 			  
+	 			  	<form role="form" id="signupForm" method="post" action="">
+    
+   
+    
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+     
+     
+     
+     <div class="row">
+     	<div class="col-md-6">
+     		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2">  Bank Name  </label>
+    <select class="form-control " id="f1" name="f1" required="">
+    	<option selected disabled>Choose your bank </option>
+    	<option>Bank </option>
+    	<option>Bank</option>
+    	<option>Bank </option>
+    	<option>Bank </option>
+  
+    </select>
+   </div> 
+     	</div>
+     	
+     	<div class="col-md-6">
+     		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2">  Account Holder Name </label>
+    <input class="form-control " type="text"   dir="auto"  id="f2" name="f2"   required="" placeholder="Account Holder Name">
+   </div> 
+     	</div>
+     	
+     	
+     </div>
+      
+     
+     
+	  
+	  
+ 
+   
+     
+     
+     	  
+   
+   
+     	  
+	  
+ 
+       <div class="form-group clearfix req-opt mob-num-cont">
+    <label class="form-label" for="phone"> Mobile Number  </label>
+    <input class="form-control num-only" type="text" readonly maxlength="12" id="phone" name="phone"  dir="auto"    placeholder="Enter your store phone number " value="+96555512345" >
+ 
+  </div> 
+       
+     
+       <div class="row">
+       	<div class="col-md-6">
+       		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2">  Bank Branch </label>
+    <input class="form-control " type="text"   dir="auto"  id="f3" name="f3"   required="" placeholder="Bank Branch">
+   </div> 
+       
+       	</div>
+       	
+       	<div class="col-md-6">
+       		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2"> Account Number </label>
+    <input class="form-control " type="text"   dir="auto"  id="f4" name="f4"   required="" placeholder="Account Number x-1234">
+   </div> 
+       	</div>
+       	
+       	
+       </div>
+         
+             
+       
+           
+         
+             
+             <div class="row">
+             	<div class="col-md-6">
+             		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2"> Iban Number </label>
+    <input class="form-control " type="text"   dir="auto"  id="f5" name="f5"   required="" placeholder="Iban Number">
+   </div> 
+             	</div>
+             	
+             		<div class="col-md-6">
+             		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2"> Swift Code </label>
+    <input class="form-control " type="text"   dir="auto"  id="f6" name="f6"   required="" placeholder="Swift Code">
+   </div> 
+             	</div>
+             	
+             	
+             </div>
+       
+            
+           
+         
+             
+       
+       
+               
+         
+             
+       
+        
+             
+         
+         
+         <div class="app-btn-cont register-box  clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >    Add bank account   </button>
+    
+         </div>
+    </div>
+    
+    
+    
+</div>
+   
+  
+</form>
+</div>
+	 		 
+	 		 
+    </div>
+</div>
+
+
+
+<div class="collapse card-acc-box collapse-fixed-full    " id="collapse-card-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-card-1" aria-expanded="true" aria-controls="collapse-card-1">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+     
+     <div class="reg-box-cont">
+	 			  	 
+	 			  	 <div class="heading   center">
+    			<h3 class="box-title"> Add a card </h3>
+    			<p class="heading-p">  Payzaty Payments that will help your bussiness sell manage and grow profitably
+
+ </p>
+     		</div>
+    		
+	 			  
+	 		  	
+                             	
+                             	
+	 			  	<form role="form"   method="post" action="">
+    
+   
+    
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+     
+    
+    
+    
+     
+     <div class="row">
+     	<div class="col-md-6">
+     		<div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2">  Card type  </label>
+    <select class="form-control " id="f1" name="f1" required="">
+    	<option selected disabled> Card type</option>
+    	<option> Visa </option>
+    	<option> Master</option>
+     </select>
+   </div> 
+     	</div>
+     	
+     	<div class="col-md-6">
+     	
+     	 <div class="form-group clearfix req-opt">
+    <label class="form-label" for="f2">  Card Holder Name </label>
+    <input class="form-control " type="text" dir="auto" id="f2" name="f2" required="" placeholder="Account Holder Name">
+   </div>
+    		
+    		
+     		
+     	</div>
+     	
+     	
+     </div>
+      
+     
+     
+	  
+	  <div class="form-group clearfix req-opt rel-pos">
+    <label class="form-label" for="f2">  Credit/Debit Card Number </label>
+  
+      <input class="form-control simple-field-data-mask" type="text" placeholder="Credit/Debit Card Number" data-mask="0000-0000-0000-0000"   maxlength="16">
+                                 <span class="icon ion-card " >  </span>
+                                 
+                                 
+   </div> 
+   
+	  
+ 
+   <div class="row">
+   	<div class="col-md-6">
+   		 	<div class="form-group ">
+                             <label class="form-label" for="f2">   Expiration MM/YY  </label>
+  
+                                                       
+                                             
+                                 <input class="simple-field-data-mask form-control" type="text" data-mask="00/00"  placeholder="MM/YY" maxlength="4" />
+                                 </div> 
+                               
+   	</div>
+   	
+   	<div class="col-md-6">
+   			<div class="form-group   info-input-icon-cont">
+                                          
+                                             <label class="form-label"  for="f2">  CCV  </label>
+  
+                                   
+                                 <input class="simple-field-data-mask form-control"  type="text" data-mask="0000"  placeholder="CCV" maxlength="3" />
+                                  
+                                   <span class="grey-cl pico fw300"> The last 4 four digits on card.</span>
+                                   
+                                 </div> 
+                              
+   	</div>
+   	
+   	
+   </div>
+      
+                             
+                                
+                                
+                                  
+                                 
+                              
+                                
+       
+             
+              
+       
+            
+           
+         
+             
+       
+       
+               
+         
+             
+       
+        
+             
+         
+         
+         <div class="app-btn-cont register-box  clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >    Add Card     </button>
+    
+         </div>
+    </div>
+    
+    
+    
+</div>
+   
+  
+</form>
+</div>
+	 		 
+	 		 
+    </div>
+</div>
+
+
+
+<div class="collapse card-acc-box collapse-fixed-full    " id="collapse-card-show-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-card-show-1" aria-expanded="true" aria-controls="collapse-card-show-1">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+     
+     <div class="reg-box-cont">
+	 			  	 
+	<div class="col-md-6 col-md-offset-3">
+		 			  	 <div class="heading   center">
+    			<h3 class="box-title"> Credit card </h3>
+    	 
+     		</div>
+    		
+	  
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+     
+    
+    
+    <ul class="bank-acc">
+    			 
+    				<li > <a > <span class="icon card">
+    					<img src="img/visa-logo.svg" alt="card">
+    				</span> <span> visa x-1234 </span> </a> </li>
+    			</ul>
+                       
+    
+     	 <div class="form-group ">
+    <label class="form-label"  >  Card Holder Name </label>
+    <input class="form-control " value="Mohammed Mogh" readonly  type="text" dir="auto"  >
+   </div>
+    		
+    		
+      
+<div class="form-group ">
+	<label class="form-label"> Expiration MM/YY </label>
+	<input class="form-control" type="text" readonly value="01/20" />
+</div>
+                     
+                                
+                                
+                                  
+       
+         
+         <div class="app-btn-cont register-box  clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >    Edit Card     </button>
+    
+         </div>
+    </div>
+    
+    
+    
+</div>
+   
+	</div>
+  
+</div>
+	 		 
+	 		 
+    </div>
+</div>
+
+
+
+
+
+<div class="collapse bank-acc-box collapse-fixed-full    " id="collapse-bank-show-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-bank-show-1" aria-expanded="true" aria-controls="collapse-bank-show-1">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+     
+     <div class="reg-box-cont">
+	 			  	 
+	<div class="col-md-6 col-md-offset-3">
+		 			  	 <div class="heading   center">
+    			<h3 class="box-title"> Bank Details </h3>
+    	 
+     		</div>
+    		
+	  
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+     
+    
+    
+    <ul class="bank-acc">
+    			 
+    				<li> <a href="#"> <span class="icon"><img src="img/k-bank.jpg" alt="bank"></span> <span> Bank of Kuwait x-1234 </span> </a> </li>
+    				
+    			</ul>
+                       
+                        <div class="form-group ">
+    <label class="form-label"  >  Bank Name </label>
+    <input class="form-control " value="Bank of Kuwait" readonly  type="text" dir="auto"  >
+   </div>
+   
+    
+    	 <div class="form-group clearfix req-opt">
+    <label class="form-label"  >  Account Number </label>
+    <input class="form-control " type="text" readonly  value="Account Number x-1234">
+   </div>
+    	 
+     	
+    		
+    		 <div class="form-group clearfix req-opt">
+    <label class="form-label"  >  Account Holder Name </label>
+    <input class="form-control " type="text" readonly   value="Account Holder Name">
+   </div>
+    	 	
+             
+     	 <div class="form-group ">
+    <label class="form-label"  >  Bank Branch </label>
+    <input class="form-control " value="Bank Branch" readonly  type="text" dir="auto"  >
+   </div>
+    		
+    		
+              
+                       
+     	 <div class="form-group ">
+    <label class="form-label"  >  Swift Code </label>
+    <input class="form-control " value="Swift Code" readonly  type="text" dir="auto"  >
+   </div>
+    		
+    		
+              
+                         	 <div class="form-group ">
+    <label class="form-label"  > Iban Number </label>
+    <input class="form-control " value="Iban Number" readonly  type="text" dir="auto"  >
+   </div>
+    		
+    		
+              
+                                
+                                
+                                  
+       
+         
+         <div class="app-btn-cont register-box  clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >    Edit bank account     </button>
+    
+         </div>
+    </div>
+    
+    
+    
+</div>
+   
+	</div>
+  
+</div>
+	 		 
+	 		 
+    </div>
+</div>
+
+
+ 
+<!--collapse-box-invoice-1-->
+<div class="collapse invoice-acc-box collapse-fixed-full    " id="collapse-box-invoice-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-box-invoice-1" aria-expanded="true" aria-controls="collapse-box-invoice-1">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+     
+     <div class="reg-box-cont">
+	 			  	 
+	<div class="col-md-6 col-md-offset-3">
+		 			  	 <div class="heading   center">
+    			<h3 class="box-title"> Create Invoice
+ </h3>
+    	 
+     		</div>
+ 	</div>
+  
+  <div class="clearfix"></div>
+  </div>
+  </div>
+  
+  
+   <form id="create-invoice" > 
+		 
+  
+   <div class="container">
+  <div class="dashboard-box nm">
+ 
+  	 <div class="options-cont clearfix nm no-border np">
+   			     				<a  class="btn btn-primary-pay  review-button blue-btn" data-toggle="collapse" href="#collapse-review-invoice" aria-expanded="false" aria-controls="collapse-review-invoice">
+    			     					<span> Review </span>
+   			     				</a>
+   			     				
+   			     		  <button type="submit" class="btn btn-primary-pay  ">    Create & Copy Link   </button>
+  			     					
+  			     					
+   			     				 
+   			     				
+   			     		 <a href="#" class="btn btn-primary-pay  ">
+    			     					<span> Send Invoice </span>
+   			     				    </a>
+   			     				 
+   			     				 
+   			     			</div>
+   			    
+  </div>
+  </div>
+   
+  
+   <div class="dashboard-section mt30">
+   	<div class="container">
+   		<div class="row">
+   			 <div class="col-md-12">
+   				
+   				
+   				
+     				<div class="dashboard-box create-invoice">
+   					
+   				 
+      
+   			    <div class="invoice-cont-box">
+   			    	
+    			<div class="invoice-box">
+   			    	
+   			   
+   			    <div class="heading small ">
+    			<h3 class="box-title"> Bill to </h3>
+					</div>
+   			    <div class="row mb30">
+   			    	<div class="col-md-7">
+   				
+					<div class="customer-invoice-det">
+						
+					
+					   <div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-3 np" for="f1"> Name: </label>
+    <div class=" col-sm-9">
+      <input class="form-control" type="text" id="f1" value="" dir="auto" name="f1" required="" placeholder="Name">
+   </div>
+	</div>			
+				
+ 					
+					  <div class="form-group clearfix req-opt mob-num-cont">
+    <label class="form-label col-sm-3 np" for="phone2">  Mobile Number:  </label>
+    
+    <div class="col-sm-9">
+    	
+   
+    <input class="form-control num-only col-sm-8" type="text" maxlength="12" id="phone2" name="phone2"  dir="auto"  required="" placeholder="Enter your mobile number ">
+   <span class="errmsg" > </span>
+<span id="valid-msg2" class="hide"> Valid</span>
+<span id="error-msg2" class="hide">Invalid number</span>
+  </div>
+       </div> 
+       
+          
+                      <div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-3 np" for="f2">  Email: </label>
+    <div class="col-sm-9">
+    	
+    <input class="form-control " type="email" id="f2" value="" dir="auto" name="f2" required="" placeholder=" Email ">
+    </div>
+   </div>
+					</div>
+         
+         
+         
+         <div class="customer-invoice-det">
+						
+					
+					   <div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-3 np" for="f1"> Name: </label>
+    <div class=" col-sm-9">
+      <input class="form-control" type="text" id="f1" value="" dir="auto" name="f1" required="" placeholder="Name">
+   </div>
+	</div>			
+				
+ 					
+					  <div class="form-group clearfix req-opt mob-num-cont">
+    <label class="form-label col-sm-3 np" for="phone_1_1">  Mobile Number:  </label>
+    
+    <div class="col-sm-9">
+    	
+   
+    <input class="form-control num-only col-sm-8" type="text" maxlength="12" id="phone_1_1" name="phone_1_1"  dir="auto"  required="" placeholder="Enter your mobile number ">
+   <span class="errmsg" > </span>
+<span id="valid-msg2" class="hide"> Valid</span>
+<span id="error-msg2" class="hide">Invalid number</span>
+  </div>
+       </div> 
+       
+          
+                      <div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-3 np" for="f2">  Email: </label>
+    <div class="col-sm-9">
+    	
+    <input class="form-control " type="email" id="f2" value="" dir="auto" name="f2" required="" placeholder=" Email ">
+    </div>
+   </div>
+					</div>
+          
+						
+         
+          
+          	<div class="col-md-9 col-md-offset-3">
+          		<div class="add-more">
+    			  	<a href="#" class="add-more-btn">
+    				<span class="icon ion-plus-round"> </span>
+    				<span> Add more customers </span>
+    				</a>
+    			  </div>
+          	</div>
+				
+				
+   			</div>
+   			
+   			     <div class="col-md-5 invoice-num-det">
+   				
+   				
+   		<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 " for="datetimepicker-f1"> Request date: </label>
+    <div class=" col-sm-5 np">
+      <input class="form-control" type="text" id="datetimepicker-f1" value="31/03/2018" dir="auto" name="datetimepicker-f1" required="" placeholder="Name">
+      
+      <span class="icon ion-ios-calendar-outline"> </span>
+   </div>
+	</div>			
+			
+				
+					<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 " for="f3"> Invoice type: </label>
+    <div class=" col-sm-5 np">
+     
+     
+    
+      
+    <select  class="form-control sel-invoice-type"  id="f3"   name="f3" required=""  >
+ 	<option selected disabled  >Invoice type</option>
+ 	<option value="recurring"  data-invoice-collapse="recurring-collapse" >  Recurring invoice  </option>
+ 	<option value="type2" >  type2  </option>
+  
+ 	 
+</select>
+      
+   </div>
+	</div>		
+					
+			 
+        
+        
+      <div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 " for="f4"> Due date: </label>
+    <div class=" col-sm-5 np">
+     
+      
+    <select  class="form-control"  id="f4"   name="f4" required=""  >
+ 	<option  >Due on receipt</option>
+ 	<option  >Due in 10 days</option>
+	<option  >Due in 15 days</option>
+	<option  >Due in 30 days</option>
+	<option  >Due in 45 days</option>
+	<option  >Due in 60 days</option>
+	<option  >Due in 90 days</option>
+</select>
+      
+   </div>
+	</div>			
+							
+						
+   	 					
+   		<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 " for="f4-1"> Invoice Language: </label>
+    <div class=" col-sm-5 np">
+     
+      
+    <select  class="form-control"  id="f4-1"   name="f4-1" required=""  >
+ 	<option  > Arabic </option>
+ 	<option  > English </option>
+ 
+</select>
+      
+   </div>
+	</div>			
+				
+				
+				
+									
+   		<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 " for="f4-1"> Send invoice by: </label>
+    <div class=" col-sm-5 np">
+     
+        			
+    			     <div class="invoice-sent-opts">
+    			      
+        <div class="checkbox checkbox-success">
+			<input type="checkbox" id="cx1_1" value="1" name="chk_in_1[]" required="">
+			<label for="cx1_1">
+			 <span>  SMS </span>
+			</label>
+			</div>
+       
+        <div class="checkbox checkbox-success">
+			<input type="checkbox" id="cx1_2" value="1" name="chk_in_1[]" required="">
+			<label for="cx1_2">
+			 <span> Email </span>
+			</label>
+			</div>
+        
+  			    
+    			     </div> 
+  			     	
+				
+    
+   </div>
+	</div>			
+				
+			
+				
+   			</div>
+  			    
+  			    
+   			    </div>
+   			    
+   			    <div class="row">
+   			    	<div class="col-md-12">
+   			    		
+   			    			<div class="form-group clearfix req-opt recurring-collapse  hide" id="recurring-collapse"  >
+    <label class="form-label show"  > Recurring invoice options </label>
+    
+      
+     		
+						<div class="choose-amount pr30">
+                                    				<label >Type </label>
+                             		<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary  ">
+    <input type="radio" name="options1" id="option11" autocomplete="off"  > Daily
+  </label>
+  
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options1" id="option12" autocomplete="off">  Monthly
+  </label>
+  
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options1" id="option13" autocomplete="off"> Quarterly
+  </label>
+  
+   
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options1" id="option14" autocomplete="off"> Yearly
+  </label>
+  
+   
+  
+  
+</div>
+                             	</div>
+                              		
+			 
+			    	
+			    	
+						<div class="choose-amount ">
+                                    				<label  >Period </label>
+                             		<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary  ">
+    <input type="radio" name="options1" id="option11" autocomplete="off"  > 1 Year
+  </label>
+  
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options1" id="option12" autocomplete="off">  2 Years
+  </label>
+  
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options1" id="option13" autocomplete="off"> 3 Years
+  </label>
+  
+ 
+  
+  
+</div>
+                             	</div>
+                              		
+			 
+ 			    	
+ 			    	
+ 			    	 <div class="choose-amount">
+                            			<label >Reminder Before </label>
+                            			
+                             		<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary ">
+    <input type="radio" name="options" id="option1" autocomplete="off"  > 1 Day
+  </label>
+  
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> 3 Days
+  </label>
+  
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> 7 Days
+  </label>
+  
+   
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> 14 Days
+  </label>
+  
+   
+  
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> 30 Days
+  </label>
+  
+   
+  
+ 
+  <label class="btn btn-primary choose-amount-other">
+		<input type="radio" name="options" id="option3" autocomplete="off">
+		<input type="text" name="options"   autocomplete="off">
+		  <span>Other</span>
+  </label>
+   
+  
+</div>
+
+      
+   </div>
+	 		
+		
+  			    	
+   			    	</div>
+   			    </div>
+   			    
+   			    
+   			     </div>
+   			    
+			    <div class="clearfix">
+   			     
+   			    		<div class="complete-table  invoice-item-table  complete">
+   			     
+   			     <div class="complete-row header-row ">
+   			     	 
+   			     	
+   			     	
+   			     		
+   			     	 <div class="Description-Quantity">
+   			     		 	
+   			     		
+						<div class="Description">
+						Description
+						</div>
+ 
+   			     		 
+						<div class="Quantity">
+						 Quantity
+						</div>
+                       
+                       
+                       
+                        </div>
+   			     	
+   			     		<div class="Price">
+							Price
+					    </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        
+   			        
+   			     		 
+    			     	
+    			     	</div>
+    			     	
+    			     	
+    			  <div class="complete-row ">
+  			     	
+  			     	<div class="close-row"  >
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+   			     	<div class="complete-row-summary clearfix"  >
+   			     		 
+   			     		 <div class="Description-Quantity">
+   			     		 	
+   			     		
+						<div class="Description">
+					 
+						<input class="form-control" type="text" id="fi-1" value="" dir="auto" name="fi-1" required="" placeholder="Description">
+						</div>
+ 
+   			     		 
+						<div class="Quantity">
+						 <input class="form-control" type="text" id="fi-1-2" value="1" dir="auto" name="fi-1-2" required="" placeholder="Quantity">
+						</div>
+                       
+<!--
+                       <div class="Description-txt">
+                       	<textarea class="form-control" id="fi-1-3" name="fi-1-3" placeholder="Item description" ></textarea>
+                       </div>
+-->
+                       
+                        </div>
+   			     	
+   			     		<div class="Price">
+ 				    <input class="form-control" type="text" id="fi-1-4" value="" dir="auto" name="fi-1-4" required="" placeholder="0,00 KWD">
+					    </div>
+  			     		
+   			     		 
+   			      
+   			        </div>
+   			     		 
+    			    </div>
+    			  
+    			   	   	   	
+    			       <div class="complete-row ">
+    			       
+    			       <div class="close-row"  >
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+   			     	<div class="complete-row-summary clearfix"  >
+   			     		 
+   			     		 <div class="Description-Quantity">
+   			     		 	
+   			     		
+						<div class="Description">
+					 
+						<input class="form-control" type="text" id="fi-2" value="" dir="auto" name="fi-1" required="" placeholder="Description">
+						</div>
+ 
+   			     		 
+						<div class="Quantity">
+						 <input class="form-control" type="text" id="fi-2-2" value="1" dir="auto" name="fi-2-2" required="" placeholder="Quantity">
+						</div>
+                       
+<!--
+                       <div class="Description-txt">
+                       	<textarea class="form-control" name="fi-2-3" id="fi-2-3" placeholder="Item description" ></textarea>
+                       </div>
+-->
+                       
+                        </div>
+   			     	
+   			     		<div class="Price">
+ 				    <input class="form-control" type="text" id="fi-2-4" value="" dir="auto" name="fi-2-4" required="" placeholder="0,00 KWD">
+					    </div>
+  			     		
+   			     		 
+   			      
+   			        </div>
+   			     		 
+    			    </div>
+    			  
+    			   	   	   	
+    			      	   	   	
+    			  <div class="add-more">
+    			  	<a href="#" class="add-more-btn">
+    				<span class="icon ion-plus-round"> </span>
+    				<span> Add new item</span>
+    				</a>
+    			  </div>
+    			     			
+    			   
+   			     </div>
+   			    	 
+   			    </div>
+   			    
+   			    <div class="row invoice-footer">
+   			    
+     	 
+   			    	    <label class="form-label"  >  Invoice Summary </label> 
+   			    	 
+   			    	
+   			    		<div class="invoice-footer-summary">
+   			    			
+   			    			<div class="clearfix first">
+   			    			<div class="col-sm-8 Subtotal">
+   			    				Subtotal
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-4 lgbg">
+   			    				21,00  
+   			    			</div>
+    			    	</div>
+    			    	
+    			    	
+    			    	<div class="clearfix second">
+   			    			<div class="col-sm-3 Discount">
+   			    				Discount
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-5 Discount-opts">
+   			    				 <div class="row">
+   			    				 	<div class="col-md-6">
+   			    				 		<input class="form-control" type="text" id="fdi-1" value="" dir="auto" name="fdi-1" required="" placeholder="0">
+   			    				 	</div>
+   			    				 	
+   			    				 	<div class="col-md-6">
+									<select class="form-control" id="fdi-2" name="fdi-2" required="">
+										<option> % </option>
+										<option> KWD </option>
+
+									</select>
+   			    				 	</div>
+   			    				 	
+   			    				 	
+   			    				 </div>
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-4 lgbg">
+   			    				21,00  
+   			    			</div>
+   			    			
+   			    			 
+    			    	</div>
+    			    	
+    			    		<div class="clearfix last">
+   			    			<div class="col-sm-8 lgbg Total">
+   			    				Total
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-4 lgbg total-invoice-amount-cur-cont">
+   			    			<div class="total-invoice-amount-cur">
+   			    				<span>
+   			    					18,00  
+   			    				</span>
+   			    				
+   			    				<span class="cur-select " >
+   			    					  <select class="selectpicker">
+  <option data-icon="flag-icon flag-icon-kw"> KWD </option>
+  <option data-icon="flag-icon flag-icon-us"> USD </option>
+ </select>
+			
+   			    				</span>	
+   			    				 
+   			    			</div>
+   			    				
+   			    			</div>
+    			    	</div>
+    			    	
+    			    	
+   			    		</div>
+   			    		
+   			    	
+   			    	 
+   			     
+   			  
+   			    	
+   			    	
+   			    </div>
+    			</div> 
+    			 
+    		   <div class="pl15 pr15">
+    			 	<div class="options-cont clearfix  ">
+   			     				<a   class="btn btn-primary-pay review-button  blue-btn" data-toggle="collapse" href="#collapse-review-invoice" aria-expanded="false" aria-controls="collapse-review-invoice">
+    			     					<span> Review </span>
+   			     				</a>
+   			     		 
+   			     					  <button type="submit" class="btn btn-primary-pay  ">        Create & Copy Link      </button>
+  			     					
+  			     					
+   			     				
+   			     		 <a href="#" class="btn btn-primary-pay  ">
+    			     					<span>   Send Invoice  </span>
+   			     				    </a>
+   			     				 
+   			     				 
+   			     			</div>
+   			     		
+    			 </div>
+    			 
+    			 		
+     		</div>
+     		   
+     		
+    			</div>
+   			
+   			
+   			
+   		</div>
+   		
+   	</div>
+   </div>
+ 
+
+  
+
+	 		 
+	 		 
+    </div>
+    </form>
+</div>
+
+<!--review collapse-->
+<div class="review-invoice  collapse-fixed collapse-fixed-full  collapse" id="collapse-review-invoice">
+
+<div class="close-row" data-toggle="collapse" data-target="#collapse-review-invoice" aria-expanded="true" aria-controls="collapse-review-invoice">
+  			     			<span> Close </span>
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+<div class="container">
+	  <div class="dashboard-box nm">
+	  
+	   
+ 
+  	 <div class="options-cont clearfix nm no-border np">
+   			     				<a href="#" class="btn btn-primary-pay " data-toggle="collapse" data-target="#collapse-review-invoice" aria-expanded="true" aria-controls="collapse-review-invoice">
+    			     					<span> Send Invoice </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				
+   			     			 
+   			     				 
+   			     			</div>
+   			    
+  </div>
+</div>
+ 		  
+  		  <div class="dashboard-section mt30">
+   	<div class="container">
+   		<div class="row">
+   			 <div class="col-md-12">
+   				
+   				
+   				<div class="dashboard-box create-invoice">
+   					
+   				 
+      
+   			    <div class="invoice-cont-box">
+   			    	
+    			<div class="invoice-box">
+   			    	
+   			   
+   			    <div class="heading small ">
+    			<h3 class="box-title"> Bill to </h3>
+					</div>
+  			    
+  		 
+   			     			
+   			    <div class="row">
+   			    	<div class="col-md-7">
+   				
+					
+					<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-3 np" > Name: </label>
+    <div class=" col-sm-9">
+      <input class="form-control" type="text" readonly  value="Mohammed Ahmed"  >
+   </div>
+	</div>			
+				
+					<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-3 np"  >  Your email: </label>
+    <div class="col-sm-9">
+    	
+   <input class="form-control" type="text" readonly  value="Mohammed@Ahmed.cc"  >
+    </div>
+   </div>
+					
+					
+					  <div class="form-group clearfix req-opt mob-num-cont">
+    <label class="form-label col-sm-3 np" >  Mobile Number:  </label>
+    
+    <div class="col-sm-9">
+    	
+   
+    <input class="form-control num-only col-sm-8" readonly type="text"    value="+96555512345"  >
+  
+  </div>
+       </div> 
+       
+          
+          
+          
+          
+   			</div>
+   			
+   			<div class="col-md-5 invoice-num-det">
+   				
+   				
+   		<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 "  > Request date: </label>
+    <div class=" col-sm-5 np">
+      <input class="form-control" type="text"   value="31/03/2018"  >
+       <span class="icon ion-ios-calendar-outline"> </span>
+   </div>
+	</div>			
+			
+				
+					<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 "  > Invoice type: </label>
+    <div class=" col-sm-5 np">
+     
+     <input class="form-control" type="text" readonly  value="Weekly"  >
+  
+   </div>
+	</div>		
+					
+			 
+        
+        
+        						
+						
+   		<div class="form-group clearfix req-opt">
+    <label class="form-label col-sm-5 col-sm-offset-2 "  > Due date: </label>
+    <div class=" col-sm-5 np">
+     
+       <input class="form-control" type="text" readonly  value="Due in 10 days"  >
+   
+   </div>
+	</div>			
+							
+						
+   			
+				
+				
+				
+   			</div>
+  			    
+  			    
+   			    </div>
+   			     </div>
+   			    
+			    <div class="clearfix col-md-12">
+   			     
+   			    		<div class="complete-table  invoice-item-table  complete">
+   			     
+   			     <div class="complete-row header-row ">
+   			     	 
+   			     	
+   			     	
+   			     		
+   			     	 <div class="Description-Quantity">
+   			     		 	
+   			     		
+						<div class="Description">
+						Description
+						</div>
+ 
+   			     		 
+						<div class="Quantity">
+						 Quantity
+						</div>
+                       
+                       
+                       
+                        </div>
+   			     	
+   			     		<div class="Price">
+							Price
+					    </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        
+   			        
+   			     		 
+    			     	
+    			     	</div>
+    			     	
+    			     	
+    			  <div class="complete-row ">
+  			     	
+  			      
+   			     		
+   			     	<div class="complete-row-summary clearfix"  >
+   			     		 
+   			     		 <div class="Description-Quantity">
+   			     		 	
+   			     		
+						<div class="Description">
+					 
+						<input class="form-control" type="text"  readonly  value="Item Name" >
+						</div>
+ 
+   			     		 
+						<div class="Quantity">
+						 <input class="form-control" type="text"  readonly value="2" >
+						</div>
+                     
+                        </div>
+   			     	
+   			     		<div class="Price">
+  				     <input class="form-control" type="text"  readonly value="24,00 KWD" >
+ 				     
+ 				     
+					    </div>
+  			     		
+   			     		 
+   			      
+   			        </div>
+   			     		 
+    			    </div>
+    			 		
+    			     	
+   			     </div>
+   			    	 
+   			    </div>
+   			    
+   			    <div class="row invoice-footer mt30 mb30">
+   			    
+   			      	 
+   			    	
+   			    	
+   			    	<div class="col-md-12 mt30">
+   			    	
+   			    	    <label class="form-label"  >  Invoice Summary </label> 
+   			    	 
+   			    	
+   			    		<div class="invoice-footer-summary">
+   			    			
+   			    			<div class="clearfix first">
+   			    			<div class="col-sm-8 Subtotal">
+   			    				Subtotal
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-4 lgbg">
+   			    				21,00 KWD
+   			    			</div>
+    			    	</div>
+    			    	
+    			    	
+    			    	<div class="clearfix second">
+   			    			<div class="col-sm-3 Discount">
+   			    				Discount
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-5 Discount-opts">
+   			    				 <div class="row">
+   			    				 	<div class="col-md-6">
+   			    				 		<input class="form-control" type="text" readonly  value="50"  >
+   			    				 	</div>
+   			    				 	
+   			    				 	<div class="col-md-6">
+									<select class="form-control disabled" readonly disabled   required="">
+										<option selected disabled > % </option>
+										<option> KWD </option>
+
+									</select>
+   			    				 	</div>
+   			    				 	
+   			    				 	
+   			    				 </div>
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-4 lgbg">
+   			    				21,00 KWD
+   			    			</div>
+   			    			
+   			    			 
+    			    	</div>
+    			    	
+    			    	<div class="clearfix last">
+   			    			<div class="col-sm-8 lgbg Total">
+   			    				Total
+   			    			</div>
+   			    			
+   			    			<div class="col-sm-4 lgbg">
+   			    				18,00 KWD
+   			    			</div>
+    			    	</div>
+    			    	
+    			    	
+   			    		</div>
+   			    		
+   			    	
+   			    	 
+   			    		
+   			    	</div>
+   			    	
+   			  
+   			    	
+   			    	
+   			    </div>
+   			    
+   			    
+   			    
+    			</div> 
+    			  
+    			  
+    			   <div class="pl15 pr15 ">
+    			   		 <div class="options-cont clearfix nbp   ">
+							<a href="#" class="btn btn-primary-pay  " data-toggle="collapse" data-target="#collapse-review-invoice" aria-expanded="true" aria-controls="collapse-review-invoice">
+    			     					<span>  Send Invoice </span>
+   			     				</a>
+   			     				
+   			     		  
+   			     				 
+   			     			</div>
+    			   </div>
+   			     			
+     		</div>
+    			</div>
+   			
+   			
+   			
+   		</div>
+   		
+   	</div>
+   </div>
+  
+  
+  </div>
+   
+	
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- owl -->
+<script src="plugins/OwlCarousel/js/owl.carousel.js"></script>
+<!--ct-code-->
+<script src="plugins/intl-tel-input-master/build/js/intlTelInput.js"></script>
+ <!-- jquery.validate -->
+<script type="text/javascript" src="plugins/jquery-validation/dist/jquery.validate.js"></script>
+<script src="js/jquery.mask.js"></script>
+<!--	date-picker-->
+<script src="plugins/bs-datetimepicker/js/bootstrapValidator.min.js"> </script>
+<script src="plugins/bs-datetimepicker/js/moment.min.js"> </script>
+<script src="plugins/bs-datetimepicker/js/bootstrap-datetimepicker.min.js"> </script>
+<!--selectpicker-->
+<script src="plugins/bootstrap-select/dist/js/bootstrap-select.min.js"> </script>
+<script src="plugins/bootstrap-select/dist/js/i18n/defaults-ar_AR.js"> </script>
+ 	 
+ 
+ 
+ 
+ 
+	 
+ 	 
+ 
+ <script type="text/javascript">
+	 
+	  $('select.selectpicker').selectpicker();
+	 
+	 
+		$('select.sel-invoice-type').on('change', function() {
+           
+			var sel_active = $(this).find(':selected').attr('data-invoice-collapse');
+ 			if($(this).val() == 'recurring')
+				{ $('#' + sel_active).slideDown().removeClass('hide'); 
+				 
+						$('html, body').animate({
+						scrollTop: $("#recurring-collapse").offset().top
+						}, 800);
+				}
+			       
+			
+			else{
+ 				 $('#recurring-collapse').slideUp().addClass('hide'); 
+			    }
+            });
+	 
+ 	 
+ 	 
+ 	 
+  	 
+            $(function () {
+                $('#datetimepicker-f1').datetimepicker({
+					keepOpen: false,
+					format:'DD/MM/YYYY',
+					useCurrent:true,
+					pickTime:false
+					 
+				});
+            });
+	 
+ 
+	 
+        </script>
+	
+	
+	
+ 
+<script>
+   
+	
+	
+	var telInput = $("#phone"),
+  errorMsg = $("#error-msg"),
+  validMsg = $("#valid-msg");
+
+// initialise plugin
+telInput.intlTelInput({
+	 initialCountry: "kw",
+//	autoHideDialCode:false,
+// 	nationalMode:false,
+	 onlyCountries: ["kw", "sa"],
+  geoIpLookup: function(callback) {
+    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      callback(countryCode);
+    });
+  },
+  utilsScript: "../../build/js/utils.js"
+});
+
+	
+	var telInput_1_1 = $("#phone_1_1"),
+  errorMsg = $("#error-msg_1_1"),
+  validMsg = $("#valid-msg_1_1");
+
+// initialise plugin
+telInput_1_1.intlTelInput({
+	 initialCountry: "kw",
+//	autoHideDialCode:false,
+// 	nationalMode:false,
+	 onlyCountries: ["kw", "sa"],
+  geoIpLookup: function(callback) {
+    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      callback(countryCode);
+    });
+  },
+  utilsScript: "../../build/js/utils.js"
+});
+
+	
+	
+	var telInput2 = $("#phone2"),
+  errorMsg2 = $("#error-msg2"),
+  validMsg2 = $("#valid-msg2");
+
+// initialise plugin
+telInput2.intlTelInput({
+	 initialCountry: "kw",
+//	autoHideDialCode:false,
+// 	nationalMode:false,
+	 onlyCountries: ["kw", "sa"],
+  geoIpLookup: function(callback) {
+    $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+      var countryCode = (resp && resp.country) ? resp.country : "";
+      callback(countryCode);
+    });
+  },
+  utilsScript: "../../build/js/utils.js"
+});
+
+	
+ 
+ 
+</script>
+
+ 
+ <script type="text/javascript">
+//vaildation		
+// $.validator.setDefaults( { submitHandler: function () { alert( "submitted!" ); } } );
+
+  
+		$(document).ready(function () {
+			
+			
+		//called when key is pressed in textbox
+		$(".num-only").keypress(function (e) {
+		//if the letter is not digit then display error and don't type anything
+		if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+		//display error message
+		$(this).parent().find(".errmsg").html("Only numbers").show().fadeOut("slow");
+		return false;
+		}
+		});
+			
+
+	   // add the rule phone-num
+	   $.validator.addMethod('customphone', function (value, element) {
+		return this.optional(element) || /^(009655|9655|\+9655|05|5)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/.test(value);
+		}, "Enter correct Mobile ");
+
+		
+    //Initialize the validation object which will be called on form submit.
+    var validobj = $("#signupForm").validate({
+        onkeyup: true,
+         
+			onkeyup: true,
+ 			  
+				errorElement: "div",
+			  
+		
+        //put error message behind each form element
+        errorPlacement: function (error, element) {
+			var elem = $(element);
+			if (elem.hasClass("select2")) {
+               error.insertAfter(element.parent().find('span.select2'));
+            } else if  ( element.prop( "type" ) === "checkbox" ) {
+ 						error.insertAfter( element.parent().parent().find('.checkbox:last-child') );
+					}
+			else {
+                error.appendTo(element.parents(".form-group"));
+            }
+			
+            
+            
+        },
+
+        //When there is an error normally you just add the class to the element.
+        // But in the case of select2s you must add it to a UL to make it visible.
+        // The select element, which would otherwise get the class, is hidden from
+        // view.
+        highlight: function (element, errorClass, validClass) {
+            var elem = $(element);
+            if (elem.hasClass("select2-offscreen")) {
+                $("#s2id_" + elem.attr("id") + " ul").addClass(errorClass);
+            } else {
+                 elem.parents('.form-group').addClass( "has-error" ).removeClass( "has-success" );
+            }
+        },
+
+        //When removing make the same adjustments as when adding
+        unhighlight: function (element, errorClass, validClass) {
+            var elem = $(element);
+            if (elem.hasClass("select2-offscreen")) {
+                $("#s2id_" + elem.attr("id") + " ul").removeClass(errorClass);
+            } else {
+                elem.parents('.form-group').addClass( "has-success" ).removeClass( "has-error" );
+            }
+        }
+    });
+    
+	 //Initialize the validation object which will be called on form submit.
+    var validobj = $("#create-invoice").validate({
+        onkeyup: true,
+         
+			onkeyup: true,
+ 				rules: {
+ 
+					phone:
+					{    required: true,
+						 customphone:true,
+					}
+              
+					 
+				},
+				messages: {
+ 					phone:
+					{
+						customphone:"Enter correct Mobile "
+					},
+					 	phone2:
+					{
+						customphone:"Enter correct Mobile "
+					}
+					 
+				},
+				errorElement: "div",
+			  
+		
+        //put error message behind each form element
+        errorPlacement: function (error, element) {
+			var elem = $(element);
+			if (elem.hasClass("select2")) {
+               error.insertAfter(element.parent().find('span.select2'));
+            } else if  ( element.prop( "type" ) === "checkbox" ) {
+ 						error.insertAfter( element.parent().parent().find('.checkbox:last-child') );
+					}
+			else {
+                error.appendTo(element.parents(".form-group"));
+            }
+			
+            
+            
+        },
+
+        //When there is an error normally you just add the class to the element.
+        // But in the case of select2s you must add it to a UL to make it visible.
+        // The select element, which would otherwise get the class, is hidden from
+        // view.
+        highlight: function (element, errorClass, validClass) {
+            var elem = $(element);
+            if (elem.hasClass("select2-offscreen")) {
+                $("#s2id_" + elem.attr("id") + " ul").addClass(errorClass);
+            } else {
+                 elem.parents('.form-group').addClass( "has-error" ).removeClass( "has-success" );
+            }
+        },
+
+        //When removing make the same adjustments as when adding
+        unhighlight: function (element, errorClass, validClass) {
+            var elem = $(element);
+            if (elem.hasClass("select2-offscreen")) {
+                $("#s2id_" + elem.attr("id") + " ul").removeClass(errorClass);
+            } else {
+                elem.parents('.form-group').addClass( "has-success" ).removeClass( "has-error" );
+            }
+        }
+    });
+
+			
+			
+    //If the change event fires we want to see if the form validates.
+    //But we don't want to check before the form has been submitted by the user
+    //initially.
+    $(document).on("change", ".select2-offscreen", function () {
+        if (!$.isEmptyObject(validobj.submitted)) {
+            validobj.form();
+        }
+    });
+
+    //A select2 visually resembles a textbox and a dropdown.  A textbox when
+    //unselected (or searching) and a dropdown when selecting. This code makes
+    //the dropdown portion reflect an error if the textbox portion has the
+    //error class. If no error then it cleans itself up.
+    $(document).on("select2-opening", function (arg) {
+        var elem = $(arg.target);
+        if ($("#s2id_" + elem.attr("id") + " ul").hasClass("myErrorClass")) {
+            //jquery checks if the class exists before adding.
+            $(".select2-drop ul").addClass("myErrorClass");
+        } else {
+            $(".select2-drop ul").removeClass("myErrorClass");
+        }
+    });
+});
+		
+		  
+		
+	</script>
+ 
+ 
+   
+</body>
+</html>

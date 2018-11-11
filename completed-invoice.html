@@ -1,0 +1,3464 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="description" content=" " />
+	<meta name="keywords" content=" " />
+  	<link href="img/favicon.png" rel="shortcut icon">
+	<title> Payzaty | Completed invoice </title>
+    <!--   main   -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="plugins/OwlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel/css/owl.theme.default.min.css">
+    <!--  icons -->
+    <link rel="stylesheet" type="text/css" href="icons/fs/css/font-awesome.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="icons/io/style.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="icons/ui/styles.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="plugins/flags/css/flag-icon.css" media="all"/>
+    
+    <!-- date-picker-->
+	<link rel="stylesheet" href="plugins/bs-datetimepicker/css/bootstrap-datetimepicker.min.css">
+      
+    <!--  style -->
+    <link rel="stylesheet" type="text/css" href="css/build.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/global.css" media="all"/>
+    
+   
+           
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<link href="http://netdna.bootstrapcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy">
+	<link href="vendor/respond.proxy.gif" id="respond-redirect" rel="respond-redirect">
+	<script src="vendor/respond.proxy.js"></script>
+	<![endif]-->
+ 
+    <!--  Responsive -->
+	<link rel="stylesheet" type="text/css"  href="css/responsive.css">
+
+</head>
+<body class="load-bg logged-user" >
+
+
+ 
+
+<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+       
+       <symbol id="icon-lang"  viewBox="0 0 512 512">
+            <title>Language</title>
+			<path   d="M425.7 345.2l-52.8-104.3c-1.8-3.6-5.5-5.8-9.3-5.8-4 0-7.6 2.2-9.3 5.8l-53.6 106.7c-2.6 5.1-.5 11.4 4.6 14.1 1.5.7 3.1 1.2 4.7 1.2 3.9 0 7.6-2.1 9.3-5.8l18.5-36.7h51.8l17.4 34.4c2.6 5.1 8.9 7.2 14.1 4.6 5.1-2.7 7.2-9 4.6-14.2zm-77.4-45.9l15.3-30.4 15.4 30.4h-30.7zM510.2 286c-5-32.8-21.1-63.3-45.2-85.9-45.6-42.6-112.2-52-167.2-25-8.3-74.5-71.4-132.8-148-132.8-40 0-77.5 15.4-105.8 43.6-28.4 28.2-44 65.8-44 105.9 0 40 15.6 77.6 44 105.8 28.2 28.1 65.9 43.6 105.8 43.6 23.2 0 45.2-5.4 64.8-14.9 6.7 61 50.5 112.6 110.9 128.6h.1c12.1 2.9 24.1 4.4 36.1 4.4 53.8 0 104.9-29.1 131.7-77.8 16-28.9 21.9-62.8 16.8-95.5zm-360.4 34.1c-70.9 0-128.7-57.5-128.7-128.4 0-70.7 57.8-128.4 128.7-128.4 70.6 0 128 57.6 128 128.4s-57.4 128.4-128 128.4zm325.3 51.3c-28.1 51.2-87.4 77.1-144.2 63.1-55.1-14.6-94-63.6-96-120.1 36.9-25.8 61.6-67.9 63.8-115.8 48.8-28.5 110.6-21.9 152.1 17 42.8 39.9 52.7 103.9 24.3 155.8zM202.7 446.8v-.1l-.3-1.2v-.1c-.1-.3-.2-.7-.4-1 0-.1-.1-.2-.2-.3l-.4-.7-.2-.3-.6-.9c-.2-.3-.5-.6-.8-.9l-.2-.2-.7-.6-.3-.2-.7-.5-.3-.2c-.3-.2-.7-.4-1-.5l-53.6-21.6c-5.3-2.2-11.4.4-13.6 5.8-2.2 5.4.4 11.4 5.8 13.6l35.9 14.5c-19.7 10.6-43.5 11.4-64.2 1.6h-.1c-26.1-12.1-42.6-38.7-42-68.1.1-5.8-4.4-10.6-10.3-10.7-5.8-.1-10.6 4.4-10.7 10.3-.9 37.7 20.4 72 54 87.6 12.6 6 26 8.9 39.4 8.9 11.4 0 22.9-2.2 33.7-6.4l-9.5 23.3c-2.2 5.4.4 11.5 5.8 13.6 1.3.5 2.6.7 4 .7 4.1 0 8.1-2.4 9.8-6.5l21.6-53 .1-.3c-.1-.1-.1-.2 0-.3.1-.3.2-.6.2-.8 0-.1 0-.2.1-.3.1-.4.1-.8.2-1.3v-1.5l-.1-.9c-.4-.4-.4-.4-.4-.5zM310 65.3v.1l.3 1.2v.1c.1.3.2.7.4 1 0 .1.1.2.2.3l.4.7.2.3.6.9c.2.3.5.6.8.9l.2.2.7.6.3.2.7.5.3.2c.3.2.7.4 1 .5l53.9 21.9c5.3 2.2 11.4-.4 13.6-5.8s-.4-11.4-5.8-13.6l-35.8-14.5c19.7-10.6 43.5-11.4 64.2-1.6h.1c26.1 12.1 42.6 38.7 42 68.1-.1 5.8 4.4 10.6 10.3 10.7h.2c5.7 0 10.4-4.5 10.5-10.3.8-37.8-20.4-72.2-54.1-87.7-23.4-11.1-49.7-11.7-73-2.5l9.5-23.3c2.2-5.4-.4-11.5-5.8-13.6-5.3-2.2-11.5.4-13.6 5.8l-21.6 53-.1.3s-.1.3-.1.4c-.1.3-.2.6-.2.8 0 .1 0 .2-.1.3-.1.4-.1.8-.2 1.3v1.5l.1.9c-.1.1-.1.1-.1.2zM224.2 218.3c-.9-.6-1.9-1-3-1h-43.2c-4.2-1.6-7.7-5.2-10.7-11-2.9-5.7-4.4-12.4-4.4-20v-2.6c0-10.6 3-18.3 9.1-22.9 6.1-4.7 14.5-7 25.1-7 3.7 0 7 .1 9.9.2 2.9.1 6.1.4 9.7.6 1.1.1 2.2 0 3.2-.5s1.5-1.5 1.5-3.1v-8.6c0-1.4-.4-2.4-1.3-2.9s-2.1-.9-3.7-1.2c-4.7-.7-8.8-1.1-12.2-1.3-3.4-.1-6.5-.2-9.4-.2-7.2 0-13.8.9-19.9 2.7-6.1 1.8-11.4 4.6-15.9 8.3-4.5 3.7-8 8.4-10.5 14.1-2.5 5.7-3.8 12.3-3.8 19.9v2.4c0 7.7.8 14.4 2.5 20 1.6 5.6 3.9 10 6.8 13.1h-73.3c-2 0-3.7.3-5.2.8-1.4.5-2.2 1.2-2.2 2v12.7c0 1 .7 1.8 2.2 2.3 1.4.5 3.2.8 5.2.8h140.6c1.1 0 2.2-.3 3-.9.9-.6 1.3-1.4 1.3-2.6v-11.4c-.1-1.2-.5-2.1-1.4-2.7z"> </path>
+        </symbol>
+        
+        
+        <symbol id="icon-setting"  viewBox="0 0 24 24">
+            <title>setting</title>
+			<path d="M12 7c-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5-2.238-5-5-5zm0 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3zm11-6h-2.523c-.105-.299-.227-.589-.361-.872l1.653-1.654c.391-.391.391-1.023 0-1.414l-2.829-2.829c-.391-.391-1.023-.391-1.414 0l-1.654 1.653c-.283-.134-.573-.255-.872-.361v-2.523c0-.553-.447-1-1-1h-4c-.553 0-1 .447-1 1v2.523c-.299.106-.589.227-.872.362l-1.654-1.654c-.391-.391-1.023-.391-1.414 0l-2.829 2.829c-.391.391-.391 1.023 0 1.414l1.653 1.654c-.134.283-.255.573-.361.872h-2.523c-.553 0-1 .447-1 1v4c0 .553.447 1 1 1h2.523c.105.299.227.589.361.872l-1.653 1.654c-.391.391-.391 1.023 0 1.414l2.828 2.828c.391.391 1.023.391 1.414 0l1.654-1.653c.284.135.574.256.873.362v2.523c0 .553.447 1 1 1h4c.553 0 1-.447 1-1v-2.523c.299-.105.589-.227.872-.361l1.654 1.653c.391.391 1.023.391 1.414 0l2.828-2.828c.391-.391.391-1.023 0-1.414l-1.653-1.654c.135-.283.256-.573.361-.872h2.524c.553 0 1-.447 1-1v-4c0-.554-.447-1.001-1-1.001zm-1 4h-3.101c-.171 1.182-.627 2.261-1.311 3.175l2.059 2.059-1.414 1.414-2.059-2.059c-.913.684-1.993 1.14-3.175 1.311v3.1h-2v-3.101c-1.182-.171-2.262-.627-3.175-1.311l-2.059 2.059-1.414-1.414 2.059-2.059c-.683-.913-1.139-1.992-1.309-3.174h-3.101v-2h3.101c.171-1.182.626-2.262 1.311-3.175l-2.059-2.058 1.414-1.414 2.059 2.059c.912-.684 1.992-1.141 3.174-1.311v-3.101h2v3.101c1.182.171 2.262.627 3.175 1.311l2.059-2.059 1.414 1.414-2.059 2.059c.684.913 1.14 1.993 1.311 3.175h3.1v1.999z"> </path>
+        </symbol>
+        
+        <symbol id="icon-smile" viewBox="0 0 1024 1024">
+            <title>smile</title>
+            <path   d="M16 12c.553 0 1-.672 1-1.5s-.447-1.5-1-1.5-1 .672-1 1.5.447 1.5 1 1.5zm-8 0c.553 0 1-.672 1-1.5s-.447-1.5-1-1.5-1 .672-1 1.5.447 1.5 1 1.5zm4-12c-6.628 0-12 5.373-12 12s5.372 12 12 12c6.627 0 12-5.373 12-12s-5.373-12-12-12zm0 22c-5.522 0-10-4.478-10-10s4.478-10 10-10 10 4.478 10 10-4.478 10-10 10zm6.482-7.875c-.479-.276-1.09-.112-1.366.366-1.104 1.913-2.907 2.509-5.116 2.509s-4.012-.596-5.116-2.509c-.276-.479-.888-.643-1.366-.366-.478.276-.642.888-.365 1.366 1.656 2.87 3.534 3.509 6.847 3.509s5.191-.639 6.848-3.509c.276-.478.112-1.09-.366-1.366z"></path>
+             
+        </symbol>
+                   
+        <symbol id="icon-shop-bag" viewBox="0 0 24 24">
+            <title>smile</title>
+            <path   d="M8.5 10c.827 0 1.5-.673 1.5-1.5s-.673-1.5-1.5-1.5-1.5.673-1.5 1.5.673 1.5 1.5 1.5zm0-2c.275 0 .5.224.5.5s-.225.5-.5.5-.5-.224-.5-.5.225-.5.5-.5zM15.5 10c.827 0 1.5-.673 1.5-1.5s-.673-1.5-1.5-1.5-1.5.673-1.5 1.5.673 1.5 1.5 1.5zm0-2c.275 0 .5.224.5.5s-.225.5-.5.5-.5-.224-.5-.5.225-.5.5-.5zM4.617 24h14.766c.426 0 .833-.182 1.117-.5s.421-.742.374-1.166l-1.778-16c-.084-.76-.725-1.334-1.491-1.334h-1.962l-.299-2.099c-.114-.812-.514-1.551-1.127-2.079-.613-.53-1.401-.822-2.217-.822-1.702 0-3.109 1.22-3.345 2.9l-.299 2.1h-1.961c-.766 0-1.406.574-1.49 1.334l-1.778 16c-.048.424.089.849.373 1.166s.691.5 1.117.5zm15.138-1.167c-.096.108-.229.167-.372.167h-14.766c-.144 0-.276-.059-.372-.167-.097-.107-.141-.246-.125-.389l.161-1.444h15.439l.161 1.444c.015.144-.029.282-.126.389zm-10.109-19.793c.166-1.182 1.156-2.04 2.354-2.04.576 0 1.131.206 1.563.579.43.37.711.889.791 1.461l.28 1.96h-5.268l.28-1.96zm-3.748 3.404c.028-.253.242-.444.497-.444h11.211c.255 0 .469.191.496.445l1.506 13.555h-15.216l1.506-13.556z"></path>
+             
+        </symbol>
+            
+        <symbol id="icon-invoice" viewBox="0 0 24 24">
+            <title>invoice</title>
+            <path   d="M4.735 23.941l1.645-.875 1.645.875c.073.039.154.059.234.059l.235-.059 1.642-.875 1.637.874c.146.079.323.079.471 0l1.64-.875 1.638.874c.146.079.324.079.471 0l1.634-.874 1.638.874c.155.083.342.078.493-.012.15-.089.242-.251.242-.427v-23c0-.176-.092-.338-.243-.429-.151-.09-.337-.096-.492-.013l-1.645.876-1.645-.875c-.146-.078-.323-.078-.47 0l-1.642.875-1.637-.874c-.146-.079-.323-.079-.471 0l-1.64.875-1.636-.876c-.146-.079-.324-.079-.471 0l-1.634.874-1.639-.874c-.154-.083-.341-.078-.492.012-.151.091-.243.253-.243.429v23c0 .176.092.338.243.429.15.09.335.094.492.012zm.265-22.608l1.138.607c.147.079.324.079.471 0l1.634-.874 1.638.874c.146.079.323.079.471 0l1.64-.875 1.637.874c.146.08.324.079.47 0l1.642-.875 1.645.875c.146.078.323.078.47 0l1.144-.606v21.334l-1.138-.607c-.147-.079-.324-.079-.471 0l-1.634.874-1.638-.874c-.146-.079-.323-.079-.471 0l-1.64.875-1.637-.874c-.146-.079-.323-.078-.47 0l-1.642.875-1.645-.875c-.072-.041-.154-.061-.234-.061l-.235.059-1.145.608v-21.334zM7.5 6h5c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-5c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 10h9c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-9c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 13h9c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-9c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 16h9c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-9c-.276 0-.5.224-.5.5s.224.5.5.5zM7.5 19h6c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-6c-.276 0-.5.224-.5.5s.224.5.5.5zM16.5 18h-1c-.276 0-.5.224-.5.5s.224.5.5.5h1c.276 0 .5-.224.5-.5s-.224-.5-.5-.5z"></path>
+             
+        </symbol>
+        
+                  
+        <symbol id="link-dash" viewBox="0 0 24 24">
+            <title> link</title>
+            <path  d="M1.509,22.631c0.912,0.912,2.11,1.368,3.309,1.368s2.396-0.456,3.309-1.368l5.506-5.506
+		c0.426-0.417,0.755-0.941,0.992-1.507c0.566-0.236,1.089-0.565,1.502-0.987l5.51-5.51c1.824-1.824,1.824-4.793,0-6.618l-0.14-0.139
+		c-1.824-1.824-4.793-1.824-6.617,0L9.373,7.87C8.948,8.286,8.619,8.809,8.382,9.376c-0.568,0.238-1.091,0.567-1.503,0.988
+		l-5.51,5.51C0.486,16.757,0,17.932,0,19.183s0.486,2.426,1.369,3.309L1.509,22.631z M15.586,3.071
+		c1.434-1.434,3.769-1.435,5.204,0.001l0.14,0.139c1.435,1.435,1.435,3.769,0,5.203l-5.514,5.514
+		c-0.363,0.371-0.824,0.665-1.332,0.849c-0.689,0.247-1.444,0.289-2.137,0.114c-0.661-0.154-1.243-0.479-1.73-0.967l-0.14-0.14
+		C9.66,13.368,9.37,12.88,9.196,12.336c0.267-0.208,0.578-0.33,0.938-0.333c0.128,0.397,0.352,0.766,0.669,1.092l0.126,0.116
+		c0.396,0.396,0.891,0.651,1.423,0.741c0.001,0,0.001,0,0.002,0c0.011,0.002,0.021,0.006,0.032,0.008
+		c0.138,0.024,0.289,0.037,0.427,0.037c0.687,0,1.333-0.265,1.859-0.763c0.005-0.003,0.008-0.007,0.013-0.011
+		c0.017-0.016,0.035-0.027,0.052-0.043l5.48-5.479C20.722,7.195,21,6.522,21,5.808c0-0.716-0.279-1.389-0.797-1.906l-0.126-0.117
+		c-1.02-1.021-2.768-1.012-3.777,0L11,9.082c-0.422-0.076-0.856-0.093-1.291-0.049c0.115-0.158,0.229-0.318,0.366-0.452
+		L15.586,3.071z M8.413,13.084c0.227,0.518,0.541,0.991,0.956,1.407l0.14,0.14c0.415,0.416,0.89,0.73,1.407,0.957l-4.916,4.916
+		c-0.63,0.633-1.708,0.655-2.376-0.014L3.5,20.378c-0.326-0.333-0.498-0.745-0.498-1.19c0-0.453,0.171-0.863,0.494-1.187
+		L8.413,13.084z M14.592,11.91c-0.227-0.518-0.541-0.992-0.957-1.408l-0.14-0.139c-0.416-0.416-0.891-0.731-1.406-0.957l4.916-4.916
+		c0.633-0.632,1.708-0.654,2.376,0.013l0.126,0.117C19.826,4.938,20,5.359,20,5.808s-0.175,0.87-0.491,1.187L14.592,11.91z
+		 M2.076,16.581l5.514-5.514c0.362-0.371,0.823-0.665,1.331-0.85c0.689-0.247,1.446-0.287,2.138-0.113
+		c0.66,0.153,1.242,0.479,1.73,0.968l0.14,0.139c0.416,0.417,0.706,0.905,0.88,1.448c-0.267,0.207-0.578,0.329-0.938,0.332
+		c-0.13-0.407-0.354-0.777-0.668-1.09l-0.126-0.117c-0.395-0.395-0.888-0.649-1.418-0.74c-0.002,0-0.003-0.001-0.005-0.001
+		c-0.011-0.002-0.022-0.006-0.033-0.008c-0.819-0.144-1.646,0.126-2.28,0.723c-0.009,0.006-0.016,0.013-0.025,0.02
+		C8.3,11.792,8.283,11.8,8.269,11.814l-5.48,5.479c-0.507,0.507-0.787,1.18-0.787,1.894c0,0.702,0.278,1.373,0.8,1.907l0.126,0.116
+		c0.507,0.507,1.176,0.786,1.884,0.786c0.714,0,1.387-0.279,1.894-0.786l5.295-5.294c0.267,0.048,0.537,0.081,0.812,0.081
+		c0.163,0,0.325-0.025,0.488-0.042c-0.116,0.161-0.232,0.322-0.371,0.459l-5.51,5.51c-1.434,1.433-3.768,1.435-5.203,0l-0.14-0.14C1.382,21.09,1,20.166,1,19.183S1.382,17.275,2.076,16.581z"> </path> 
+             
+        </symbol>
+        
+        <symbol id="link-plus" viewBox="0 0 24 24">
+            <title> plus </title>
+          <path d="M22.5,12H12V1.5C12,1.224,11.776,1,11.5,1S11,1.224,11,1.5V12H0.5C0.224,12,0,12.224,0,12.5S0.224,13,0.5,13
+	H11v10.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V13h10.5c0.276,0,0.5-0.224,0.5-0.5S22.776,12,22.5,12z"> </path>
+             
+        </symbol>
+        
+        
+        <symbol id="icon-arrow-left" viewBox="0 0 1024 1024">
+            <title>arrow-left</title>
+            <path d="M22.521 9h-2.034c-.105-.296-.228-.589-.366-.877l1.44-1.44c.279-.28.434-.651.434-1.046 0-.396-.154-.767-.434-1.046l-2.15-2.151c-.56-.558-1.534-.558-2.092 0l-1.44 1.44c-.289-.138-.583-.261-.879-.366v-2.035c0-.815-.664-1.479-1.479-1.479h-3.041c-.816 0-1.48.664-1.48 1.479v2.035c-.296.105-.59.228-.878.366l-1.44-1.44c-.558-.558-1.532-.559-2.092 0l-2.15 2.15c-.28.28-.434.651-.434 1.046s.154.766.434 1.046l1.44 1.44c-.139.289-.261.582-.366.878h-2.035c-.815 0-1.479.664-1.479 1.479v3.042c0 .815.664 1.479 1.479 1.479h2.034c.105.295.228.589.366.878l-1.44 1.439c-.279.279-.434.65-.434 1.046s.153.767.434 1.047l2.15 2.15c.56.56 1.536.558 2.092 0l1.44-1.44c.29.139.584.261.879.366v2.034c0 .816.664 1.48 1.479 1.48h3.041c.816 0 1.48-.664 1.48-1.479v-2.034c.295-.105.589-.228.878-.366l1.439 1.44c.558.558 1.533.56 2.093 0l2.15-2.15c.28-.28.434-.651.434-1.047s-.154-.767-.434-1.045l-1.44-1.44c.139-.289.261-.583.366-.878h2.034c.816-.001 1.48-.665 1.48-1.48v-3.042c0-.815-.664-1.479-1.479-1.479zm.479 4.521c0 .264-.215.479-.479.479h-2.396c-.22 0-.413.144-.478.354-.145.468-.339.936-.579 1.389-.103.193-.066.432.089.587l1.696 1.697c.091.09.141.21.141.337 0 .129-.05.249-.141.34l-2.15 2.15c-.182.182-.496.182-.678 0l-1.696-1.696c-.154-.155-.395-.191-.587-.089-.453.24-.921.435-1.389.579-.209.064-.353.257-.353.477v2.396c0 .264-.215.479-.479.479h-3.041c-.265 0-.48-.215-.48-.479v-2.396c0-.22-.144-.413-.354-.478-.468-.145-.936-.339-1.389-.579-.073-.039-.153-.058-.233-.058-.13 0-.258.051-.354.146l-1.696 1.696c-.182.182-.496.182-.678 0l-2.15-2.15c-.091-.091-.141-.211-.141-.34 0-.127.05-.247.141-.338l1.696-1.696c.155-.155.191-.394.089-.587-.24-.453-.435-.921-.579-1.389-.064-.208-.257-.352-.477-.352h-2.396c-.264 0-.479-.215-.479-.479v-3.042c0-.264.215-.479.479-.479h2.396c.22 0 .413-.143.478-.353.145-.47.339-.937.578-1.388.104-.194.067-.433-.088-.588l-1.697-1.696c-.09-.091-.14-.211-.14-.339s.05-.248.141-.339l2.15-2.15c.182-.182.496-.181.678 0l1.696 1.696c.154.155.394.19.588.088.45-.239.918-.434 1.388-.578.209-.064.353-.258.353-.478v-2.396c0-.264.215-.479.479-.479h3.041c.265 0 .48.215.48.479v2.396c0 .22.144.414.354.478.47.145.938.339 1.388.578.194.102.434.067.588-.088l1.696-1.696c.182-.181.496-.181.678 0l2.15 2.151c.091.09.141.21.141.338s-.05.248-.141.339l-1.696 1.696c-.155.155-.191.394-.088.588.239.451.434.918.578 1.388.064.21.257.353.477.353h2.396c.264 0 .479.215.479.479v3.042zM12 5c-3.859 0-7 3.14-7 7 0 3.859 3.141 7 7 7s7-3.141 7-7c0-3.86-3.141-7-7-7zm0 13c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6z"></path>
+        </symbol>
+    </defs>
+</svg>
+
+
+	<!-- Preloader -->
+	<div id="loader-wrapper">
+		<div id="loader" class="loader">
+			<div class="loader__figure">
+ 				<div class="loader-box">
+				  <img src="img/logo.svg" alt="logo">
+				</div>
+			</div>
+		</div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+
+
+
+
+
+<div class="wrap">
+
+
+    <div id="header" class="header-main header-inner-logged " >
+ 		<div class="scroll-fixed navbar navbar-default"  >
+ 
+ 						
+			 
+ 
+    <div class="top-header">
+    	
+        <div class="container-fluid">
+        	 
+        		<div class="navbar-header">
+        				<a href="index.html" class="show-header-fix navbar-brand" ><img src="img/logo-w.svg" alt="logo" />
+        				<img src="img/payzaty.svg" alt="payzaty">
+        				</a>
+			  
+			</div>
+      	
+      	
+      
+      	
+      	  <ul class="main-nav-list-normal">
+        	    
+        	    
+      		 	     <li class="user-acc   dropdown contact-dropdown">
+      		 	     
+      		 	     <a class="call-us"  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+      	            <span class="icon ion-ios-email"> </span>
+      	            
+       	            <span> Contact Us 24/7 </span>
+       	           <span class="arrow ion-ios-arrow-down"></span>
+       	           </a>
+       	           
+  
+   
+  <div class="dropdown-menu" aria-labelledby="dLabel">
+  
+  <div class="col-md-5">
+  	<h3 class="box-title"> Call Us </h3>
+  	 
+  	 <ul class="list-unstyled" >
+  	 	<li> <div class="title"> Call Our Support 24/7</div>
+			<div class="cont-txt"> <a href="tel:+96594455314" > 965-94455314 </a> </div>
+  	 	  </li>
+  	 	  
+  	 	  
+  	 	  <li> <div class="title"> Send Via WhatsApp</div>
+			<div class="cont-txt">  <a href="whatsapp://send?abid=+96594455314&text=Hello%2C%20World!
+" > 965-94455314 </a> </div>
+  	 	  </li>
+  	 	  
+  	 	  <li> <div class="title"> Send Via Email</div>
+			<div class="cont-txt"> <a href="mailto:info@payzaty.com" > info@payzaty.com </a> </div>
+  	 	  </li>
+  	 	  
+  	 </ul>
+  	 
+  </div>
+   
+   
+   
+  <div class="col-md-7 contact">
+  	<h3 class="box-title"> Contact Us </h3>
+  	
+  	
+	   <div class="reg-box-cont">
+	 	 
+    		
+	 			  
+	 			  	<form role="form" id="signinForm" method="post" action="">
+    
+   
+    
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+      
+ 
+   
+       <div class="form-group clearfix req-opt">
+    <label class="form-label" for="f1">  Your email </label>
+    <input class="form-control" type="text"  id="f1" value="" dir="auto" name="f1" required="" placeholder=" Your email ">
+   </div> 
+  
+          
+   
+       <div class="form-group clearfix req-opt">
+    <label class="form-label" for="password">  Message</label>
+		   <textarea class="form-control"   dir="auto"  required="" rows="8" placeholder="Message "> </textarea>
+  </div> 
+      
+      
+   
+          
+        
+         
+         
+         
+      
+         
+         <div class="app-btn-cont   clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >   Send  </button>
+    
+         </div>
+         
+          
+    		
+    </div>
+    
+    
+    
+</div>
+   
+  
+</form>
+</div>
+	 		 
+	 		 
+  </div>
+   
+   
+   
+  </div>
+</li> 
+			  
+       				
+       				
+        	    <li class=" help-dropdown">
+  <a  href="help.html"  >
+     <span class="icon ion-android-alert" > </span>
+   </a>
+   
+</li> 
+		    
+        	    <li class="dropdown notifications-dropdown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <span class="icon ion-android-notifications-none" > </span>
+   </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li class="dropdown-profile-cont" > 
+        <div class="user-profile-in">
+         
+     <h4   >  Notifications </h4>
+     
+         </div>   
+        
+        
+      
+        
+        
+        
+     </li>
+   <li>  <a class="pb15">
+   	You have no notifications.
+   </a> </li>
+   
+  </ul>
+</li> 
+			  
+       	       
+        	    <li class="dropdown notifications-dropdown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <span class="icon ion-android-notifications-none" > </span>
+     <span class="badge">4</span>
+   </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li class="dropdown-profile-cont" > 
+        <div class="user-profile-in">
+         
+     <h4   >  Notifications </h4>
+     
+         </div>   
+        
+        
+      
+        
+        
+        
+     </li>
+   <li>  
+     <div class="notifications-box">
+     	<div class="media">
+     		<div class="media-left">
+     			<div class="icon ion-alert-circled">
+     				
+     			</div>
+     		</div>
+     		
+     		<div class="media-body">
+     			There’s a problem with your account.
+     		</div>
+     	</div>
+     	
+     	<div class="add-more">
+    			
+    			
+    				<a class="add-more-bank-btn" role="button" data-toggle="collapse" href="#collapse-cust-img-1" aria-expanded="false" aria-controls="collapse-cust-img-1"> 
+     				<span> Upload Identity card or driving license from the front </span>
+    				</a>
+    			</div>
+    			
+    			
+     </div>  </li>
+         
+         
+          <li>  
+     <div class="notifications-box">
+     	<div class="media">
+     		<div class="media-left">
+     			<div class="icon ion-alert-circled">
+     				
+     			</div>
+     		</div>
+     		
+     		<div class="media-body">
+     			There’s a problem with your account.
+     		</div>
+     	</div>
+     	 	
+     </div>  </li>
+       
+       
+       
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      
+       
+       
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+      <li>   <a href="#">  Make sure to resolve it so you have full access to your account again. </a> </li>
+   
+  </ul>
+</li> 
+			  
+       	    
+       	    
+        	    <li class="dropdown user-dropdown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <span class="icon icon-ui-user-3" > </span>
+     <span class="user-name" > Mohammed    </span>
+     <span class="arrow ion-ios-arrow-down"></span>
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li class="dropdown-profile-cont" > 
+        <div class="user-profile-in">
+        	<span class="icon icon-ui-user-3" > </span>
+     <span class="user-name" > Mohammed Moghani </span>
+         </div>   
+        
+        
+         
+        <div class="customer-id"><span>Merchant Code</span>: 150113</div>
+        
+        
+        
+     </li>
+   <li><a href="user-setting.html"> Account Setting </a> </li>
+   <li><a href="index.html">    Log Out </a> </li>
+  </ul>
+</li> 
+        				 
+         			   </ul>
+       		 
+       		<ul class="user-acc-opt">
+     		 	 		
+        				<li class="user-acc lang" >  
+       			       <a href="#">   
+        			 <span> العربية </span>
+       				        
+        				        <span class="icon"> 
+     		 	 	       <svg role="img" title="language"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-lang"></use></svg>
+      		 	     </span>
+      		 	             
+       			  
+       			        </a>
+       			        </li>
+        			   
+       		 </ul>
+      		 
+       		  	     		 
+       		 
+       	 
+        </div>
+        
+    </div>
+     
+        <div class="bot-header">
+        	<div class="container-fluid">
+        		 <div id="navbar1" class="navbar-collapse collapse">
+        
+<div class="close-row" data-toggle="collapse" data-target="#navbar1" aria-expanded="true" aria-controls="navbar1">
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+   			     		
+   			     		
+       <div class="main-nav"> 
+        
+        
+        	 
+        	<nav class="nav navbar-nav" >
+        	    
+        	    
+        	                                                    
+        	    
+        	    	
+        	    <ul class="main-nav-list-normal">
+         				<li class=" animated fadeInDown"> <a href="dashboard.html "  >    Dashboard      </a> </li>
+         				
+         				     	    <li class="dropdown  animated fadeInDown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Invoices
+    <span class="ion-ios-arrow-down"></span>
+  </a>
+  
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a href="invoices-status.html"> <span class="status status-paid "> Paid Invoices </span> </a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-transfered "> Transfered Amount </span></a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-reserved  "> Reserved Invoices  </span></a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-pending   "> Pending Invoices   </span></a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-refunded   "> Refunded   </span> </a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-cancelled  "> Cancelled  </span> </a> </li>
+   <li><a href="invoices-status.html"> <span class="status status-expired  "> Expired  </span> </a> </li>
+  </ul>
+  
+   
+</li> 
+      				
+      				
+    
+       				
+       				
+        				<li class=" animated fadeInDown"> <a href="create-invoice.html"  >    Quick invoice     </a> </li>
+        				
+        				    <li class="dropdown  animated fadeInDown">
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    API
+    <span class="ion-ios-arrow-down"></span>
+  </a>
+  
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a href="#">  E-Commerce Documentation </a> </li>
+ 
+  </ul>
+  
+   
+</li> 
+       				
+       				
+          				<li class=" animated fadeInDown"> <a href="customers.html"  >     Customers     </a> </li>
+          				
+          					
+          				<li class=" animated fadeInDown"> <a href="transaction-fees.html"  > Transaction Fees </a> </li>
+          				
+          					
+          				<li class=" animated fadeInDown"> <a href="contact.html"  >     Contcat Us      </a> </li>
+          				
+          				
+          				
+         			   </ul>
+       		 
+       		 
+       	
+        		 
+        		  
+        		  <ul class="user-acc-opt">
+     		 	 		
+        				<li class="user-acc lang">  
+       			       <a href="#">   
+        			 <span> العربية </span>
+       				        
+        				        <span class="icon"> 
+     		 	 	       <svg role="img" title="language"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-lang"></use></svg>
+      		 	     </span>
+      		 	             
+       			  
+       			        </a>
+       			        </li>
+        			   
+       		 </ul>
+        		  
+        	 
+         	
+         	
+				</nav>
+        	  
+        	 
+       </div>
+
+     
+     
+      </div>
+        
+        <div class="mob-logged-cont">
+        	<div class="user-name">
+      		   
+    			Logged in as:	 <p>Mohammed.  </p>
+   				</div>
+   				
+   				<a href="#" class="user-acc lang">   
+        			 <span> العربية </span>
+       				        
+        				        <span class="icon"> 
+     		 	 	       <svg role="img" title="language"><use xlink:href="#icon-lang"></use></svg>
+      		 	     </span>
+      		 	             
+       			  
+       			        </a>
+       			        <div class="clearfix-xs"></div>
+        </div>
+        <div class="mob-breadcrumb">
+        	 
+        	 <ol class="breadcrumb">
+  <li><a href="#">Dashboard</a></li>
+   <li class="active">Active page title</li>
+</ol>
+     
+       
+       		<div class="side-nav-header hidden-md hidden-lg">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+       
+         <span class="side-nav-header-cont" >
+         	 <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+         </span>
+         
+            <span class="side-nav-header-txt"> Menu </span>
+            
+        </button>
+  	
+				 
+						
+      </div>
+      <div class="clearfix-xs"></div>
+      
+        </div>
+        
+        	</div>
+        </div>   
+        
+			 			
+   </div>
+<!-- End Header -->
+
+	</div>
+
+
+
+ 
+ 
+
+	<div id="content">
+  
+  <div class="container">
+  	<div class="heading  heading-bd  heading-in   ">
+    			<h3 class="box-title"> Completed Invoices </h3>
+					</div>
+  </div>
+
+  <div class="stats-section-box">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-3">
+ 				<div class="stats-item">
+ 					<div class="title">
+ 						Total invoices
+ 					</div>
+ 					
+ 					<div class="num">
+ 						7,526
+ 					</div>
+ 					<div class="note up">
+ 						24% Last week
+ 					</div>
+ 					
+ 				</div>
+ 			</div>
+ 			
+ 			
+ 			
+ 			
+ 			
+
+
+
+				<div class="col-md-3">
+					<div class="stats-item">
+						<div class="title">
+							Transferred amounts
+
+						</div>
+
+						<div class="num">
+							170,526 KWD
+						</div>
+					<div class="note down">
+							20% Last week
+						</div>
+
+					</div>
+				</div>
+				
+				
+				
+				
+
+
+				<div class="col-md-3">
+					<div class="stats-item">
+						<div class="title">
+							Completed Invoices
+
+						</div>
+
+						<div class="num">
+							170,526  
+						</div>
+						<div class="note up">
+							5% Last week
+						</div>
+
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-md-3">
+ 				<div class="stats-item">
+ 					<div class="title">
+ 						Total custmers  
+ 					</div>
+ 					
+ 					<div class="num">
+ 						70,526  
+ 					</div>
+ 					<div class="note down">
+ 						2% Last week
+ 					</div>
+ 					
+ 				</div>
+ 			</div>
+ 			
+ 		</div>
+ 		
+  	</div>
+ </div>
+  
+  
+ <div class="filter-box">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-8 ">
+		 
+	<div class="filter-date">
+ 	 <div class="form-group">
+       <div class="startDate">
+          <label for="startDate">Start  </label>
+          <input id="startDate" name="startDate" type="text" class="form-control" />
+          <span class="icon ion-ios-calendar-outline" > </span>
+       </div>
+       
+       <div class="endDate">
+        <label for="endDate">End  </label>
+        <input id="endDate" name="endDate" type="text" class="form-control" />
+          <span class="icon ion-ios-calendar-outline" > </span>
+        </div>
+        
+    </div>
+    </div>
+    
+		
+			</div>
+			
+			<div class="col-md-2  col-sm-4">
+				<div class="filters-inner-item dropdown">
+					
+					
+					 
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-grid" > </span>
+    Filter by date
+   
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li><a href="#"> Today </a> </li>
+   <li><a href="#"> This Week </a> </li>
+   <li><a href="#"> Last Week </a> </li>
+   <li><a href="#"> This Month </a> </li>
+   <li><a href="#"> Last Month </a> </li>
+   <li><a href="#"> This Year </a> </li>
+  </ul>
+ 
+			
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class="col-md-3  col-sm-5">
+				<div class="filters-inner-item dropdown">
+					
+					
+					 
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-grid" > </span>
+    Filter by invoice status
+   
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+ <li><a href="#"> <span class="status status-paid "> Paid Invoices </span> </a> </li>
+   <li><a href="#"> <span class="status status-transfered "> Transfered Amount </span></a> </li>
+   <li><a href="#"> <span class="status status-reserved  "> Reserved Invoices  </span></a> </li>
+   <li><a href="#"> <span class="status status-pending   "> Pending Payment   </span></a> </li>
+   <li><a href="#"> <span class="status status-refunded   "> Refunded   </span> </a> </li>
+   <li><a href="#"> <span class="status status-cancelled  "> Cancelled  </span> </a> </li>
+   <li><a href="#"> <span class="status status-expired  "> Expired  </span> </a> </li>
+  </ul>
+ 
+			
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-md-3  col-sm-5">
+				<div class="filters-inner-item dropdown">
+					
+					
+					 
+  <a  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-grid" > </span>
+    Filter by payment method
+   
+  </a>
+  <ul class="dropdown-menu payments" aria-labelledby="dLabel">
+ <li><a href="#">  <span> <img src="img/master.svg" alt="master"> </span> Master Card  <span> </span> </a> </li>
+ <li><a href="#">  <span> <img src="img/visa-logo.svg" alt="master"> </span>   Visa  <span> </span> </a> </li>
+ <li><a href="#">  <span> <img src="img/knet.png" alt="master"> </span>   Knet  <span> </span> </a> </li>
+ 
+  </ul>
+ 
+			
+				</div>
+			</div>
+			
+			
+			<div class="col-md-1  col-sm-2 ">
+			
+			<div class="filters-inner-item  filters-inner-search ">
+					
+	 
+				<a class="header-search-btn btn-search" data-toggle="collapse" href="#collapse-search-show-1" aria-expanded="false" aria-controls="collapse-search-show-1" >
+						<i class="icon ion-ios-search-strong"></i>
+						</a>
+			
+				</div>
+				
+				
+			</div>
+			
+			<div class="clearfix-xs"></div>
+			
+			<div class="collapse  " id="collapse-search-show-1">
+   
+   			     		
+   			     		
+   			     		
+   			     		
+			<div class="col-md-12 mt30 ntm-sm">
+				<form action="#" class="header-search">
+							<div class="header-search-wrapper">
+								<input class="header-search-input" placeholder="Search here..." title="keyword" name="keyword">
+ 							</div>
+							<button class="header-search-btn btn-search">
+						<i class="icon ion-ios-search-strong"></i>
+						</button>
+						</form>
+						
+			</div>
+   			     		 
+</div>
+
+
+		
+		
+		</div>
+	</div>
+</div>
+  
+  
+    
+ <div class="dashboard-section">
+   	<div class="container">
+   		<div class="row">
+   			 <div class="col-md-12">
+   				
+   				
+   				<div class="dashboard-box dashboard-box-none">
+   					
+   				 
+   					
+   					<div class="heading small ">
+    			<h3 class="box-title"> Completed Invoices </h3>
+					</div>
+     		     <div class="complete-table complete-table-separate   complete-table-in complete">
+   			     
+   			     <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-1" aria-expanded="false" aria-controls="complete-row-1">
+   			     	<div class="side">
+   			     		 <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/visa-logo.svg" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span>
+				        <span class="status status-paid "> Paid </span>
+					    </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-1">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-1" aria-expanded="false" aria-controls="complete-row-1">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			<div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by  
+										</div>
+ 										<p> Name </p>
+									</div>
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+										  Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+   			     					
+   			     				 
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  USD Dollars  </p>
+ 									</div>
+
+
+  			     					
+  			     				
+  			     				     <div class="complete-side">
+										<div class="complete-title">
+											Expiry Date
+										</div>
+										<p>  Mar 6, 2018 -  AM 10:36:22 </p>
+										 
+									</div>
+  			     				
+										
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-5 complete-side-details-cont">
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											 
+											
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00  ‬</span></div>
+												</div>
+											</dd>
+											
+											 
+											
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num total" > ‪55.00 USD‬ </span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				<a href="#" class="copy-btn">
+   			     					<span class="icon ion-ios-copy" > </span>
+   			     					<span> Copy link </span>
+   			     				</a>
+   			     				
+   			     					
+   			     				
+   			     				
+   			     				
+   			     				<span class="options-cont-dropdown dropdown">
+					
+					
+					 
+  <a  class="share-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-share" > </span>
+   			     					<span> Share link   </span>
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" class="fb" > <span class="fa fa-facebook" > </span>   </a> 
+   <a href="#" class="tw" > <span class="fa fa-twitter" > </span>   </a> 
+   <a href="#" class="wa" > <span class="fa fa-whatsapp" > </span>   </a> 
+   
+   </li>
+  
+  </ul>
+ 
+			
+				</span>
+  			     					
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download" > </span>
+   			     					<span> Download PDF </span>
+   			     				</a>
+   			     					
+   			     							
+  			     											
+  		 <span class="options-cont-dropdown report dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-alert" > </span>
+   			     					<span> Report  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" >  Notification not received  </a> 
+    </li>
+    
+     <li>
+   <a href="#" >  Email not received  </a> 
+    </li>
+    
+     <li>
+   <a    role="button" data-toggle="collapse" href="#collapse-report-1" aria-expanded="false" aria-controls="collapse-report-1" >  Other  </a> 
+    </li>
+  
+  </ul>
+ 
+			
+				</span>
+  			     											
+  			     											
+   			     											
+   			     			 
+   			     												
+   			     				<a href="#" class="repeat-btn">
+   			     					<span class="icon ion-ios-refresh-outline" > </span>
+   			     					<span> Repeat this bill </span>
+   			     				</a>
+   			     												
+   			     				<a href="#" class="refund-btn">
+   			     					<span class="icon ion-backspace-outline" > </span>
+   			     					<span> Refund this bill </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				
+   			     			</div>
+   			     		</div>
+    			     	
+    			     	
+   			     
+    			    
+    			 </div>
+   			     	
+   			     	
+   			     
+  			    <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-2" aria-expanded="false" aria-controls="complete-row-2">
+   			     	<div class="side">
+   			     		 
+    			     	 
+    			     	 
+   			     		 <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/visa-logo.svg" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span>
+				        <span class="status status-pending "> Pending Invoices </span>
+					    </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+    			     	 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-2">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-2" aria-expanded="false" aria-controls="complete-row-2">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by  
+										</div>
+ 										<p> Name</p>
+									</div>
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+										  Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 AM. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+  			     				     
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+   			     					
+   			     					
+   			     					 
+
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  USD Dollars  </p>
+ 									</div>
+
+ 
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Expiry Date
+										</div>
+										<p>  Mar 6, 2018  </p>
+										 
+									</div>
+  			     				
+  			     				
+
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			    				
+   			     				<div class="col-md-5 complete-side-details-cont">
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											<dd class="item">
+											<div class="row">
+													<div class="col-xs-12"><span >.INFO Domain Renewal </span></div>
+													<div class="col-xs-12 "> QUESTIONNAIRE.INFO </div>
+												</div>
+												<div class="row">
+													<div class="col-xs-6"><span >Quantity</span></div>
+													<div class="col-xs-6  num"><span >‪ 2 </span></div>
+												</div>
+											</dd>
+											
+											
+											<dd class="item">
+											<div class="row">
+													<div class="col-xs-12"><span >.INFO Domain Renewal </span></div>
+													<div class="col-xs-12 "> QUESTIONNAIRE.INFO </div>
+												</div>
+												<div class="row">
+													<div class="col-xs-6"><span >Quantity</span></div>
+													<div class="col-xs-6  num"><span >‪ 2 </span></div>
+												</div>
+											</dd>
+											
+											
+											<dd class="item">
+											<div class="row">
+													<div class="col-xs-12"><span >.INFO Domain Renewal </span></div>
+													<div class="col-xs-12 "> QUESTIONNAIRE.INFO </div>
+												</div>
+												<div class="row">
+													<div class="col-xs-6"><span >Quantity</span></div>
+													<div class="col-xs-6  num"><span >‪ 2 </span></div>
+												</div>
+											</dd>
+											
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span > Total Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00  ‬</span></div>
+												</div>
+											</dd>
+											
+											 
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num total" > ‪55.00 USD‬ </span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				<a href="#" class="copy-btn">
+   			     					<span class="icon ion-ios-copy" > </span>
+   			     					<span> Copy link </span>
+   			     				</a>
+   			     				
+   			     					
+   			     				
+   			     				
+   			     				
+   			     				<span class="options-cont-dropdown dropdown">
+					
+					
+					 
+  <a  class="share-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-share" > </span>
+   			     					<span> Share link   </span>
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" class="fb" > <span class="fa fa-facebook" > </span>   </a> 
+   <a href="#" class="tw" > <span class="fa fa-twitter" > </span>   </a> 
+   <a href="#" class="wa" > <span class="fa fa-whatsapp" > </span>   </a> 
+   
+   </li>
+  
+  </ul>
+ 
+			
+				</span>
+  			     					
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download" > </span>
+   			     					<span> Download PDF </span>
+   			     				</a>
+   			     					
+   			     							
+  			     											
+  		 <span class="options-cont-dropdown report dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-alert" > </span>
+   			     					<span> Report  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" >  Customer Can't pay  </a> 
+    </li>
+    
+     <li>
+   <a href="#" >  Customer says it's paid   </a> 
+    </li>
+    
+   
+  </ul>
+ 
+			
+				</span>
+  			     											
+  			     			<span class="options-cont-dropdown truck-bill dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-android-bicycle" > </span>
+   			     					<span> Truck Bill  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <div class="title">Sent:  </div>
+   <p>  Mar 6, 2018 - 10:00 Am  </p> 
+    </li>
+    
+     
+       <li>
+       <div class="title">
+       	Delivered:
+       </div>
+       <p> Mar 6, 2018 - 10:00 Am  </p> 
+    </li>
+    
+    
+      <li>
+        <div class="title"> Number of Views</div>
+         <p> 2 Views   </p>
+    </li>
+    
+      <li>
+      <div class="title">Payment Attempt: </div>
+       <p>  Mar 6, 2018 - 10:00 Am </p>   
+    </li>
+     
+      <li>
+		    
+       
+          <a  class="set-reminder-btn" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >
+   	<span class="icon ion-android-alarm-clock" > </span>
+   			     					<span>   Set Reminder </span>
+   			     					
+  </a>
+   
+    </li>
+    
+   
+  </ul>
+ 
+			
+				</span>
+  			     											
+  			     											
+   			     											
+   			     			 
+   			     												
+   			     			 
+   			     												
+   			     				<a href="#" class="refund-btn">
+   			     					<span class="icon ion-android-cancel" > </span>
+   			     					<span> Cancel bill </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     		</div>
+    			     	
+    			     	
+   			     
+    			    
+    			 </div>
+   			     	
+   			     	
+   			     	     	     	   	   	
+    			     	
+   			     
+  			    <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-3" aria-expanded="false" aria-controls="complete-row-3">
+   			     	<div class="side">
+   			     		 
+    			     	 
+   			     		 <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/visa-logo.svg" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span> 
+				    <span class="status status-transfered  ">  Transfered Amount  </span>
+					    </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+    			     	 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-3">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-3" aria-expanded="false" aria-controls="complete-row-3">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by 
+										</div>
+ 										<p> Name </p>
+									</div>
+			     					
+			     					
+ 			     					<div class="complete-side">
+										<div class="complete-title">
+										 Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     					
+   			     					
+  			     				     <div class="complete-side">
+										<div class="complete-title">
+											Transfered
+										</div>
+										<p>  Mar 6, 2018 -  AM 10:36:22 </p>
+										 
+									</div>
+  			     				
+  			     						
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+   			     					
+   			     					
+   			     					 
+
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  Kuwaiti Dinars  </p>
+ 									</div>
+
+ 
+
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-5 complete-side-details-cont">
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+ 											
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00  ‬</span></div>
+												</div>
+											</dd>
+											
+										 
+											
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num total" > ‪55.00 USD‬ </span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				<a href="#" class="copy-btn">
+   			     					<span class="icon ion-ios-copy" > </span>
+   			     					<span> Copy link </span>
+   			     				</a>
+   			     				
+   			     					
+   			     				
+   			     				
+   			     				
+   			     				<span class="options-cont-dropdown dropdown">
+					
+					
+					 
+  <a  class="share-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-share" > </span>
+   			     					<span> Share link   </span>
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" class="fb" > <span class="fa fa-facebook" > </span>   </a> 
+   <a href="#" class="tw" > <span class="fa fa-twitter" > </span>   </a> 
+   <a href="#" class="wa" > <span class="fa fa-whatsapp" > </span>   </a> 
+   
+   </li>
+  
+  </ul>
+ 
+			
+				</span>
+  			     					
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download" > </span>
+   			     					<span> Download PDF </span>
+   			     				</a>
+   			     					
+   			     							
+  			     											
+  		 <span class="options-cont-dropdown report dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-alert" > </span>
+   			     					<span> Report  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" >  Customer Can't pay  </a> 
+    </li>
+    
+     <li>
+   <a href="#" >  Customer says it's paid   </a> 
+    </li>
+    
+   
+  </ul>
+ 
+			
+				</span>
+  			     											
+  			     		 							
+   			     		 
+   			     				
+   			     			</div>
+   			     			
+   			     		</div>
+    			     	
+    			     
+    			 </div>
+   			     	
+   			     	
+   			     	      	   	   	
+    			    
+  			    <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-4" aria-expanded="false" aria-controls="complete-row-4">
+   			     	<div class="side">
+   			     		 
+    			     	 
+   			     		 <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/knet.png" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span> 
+				     <span class="status status-reserved    ">   Reserved Invoices   </span>
+					    </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+    			     	 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-4">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-4" aria-expanded="false" aria-controls="complete-row-4">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by  
+										</div>
+ 										<p> Name </p>
+									</div>
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+										  Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     					
+   			     					
+   			     					
+  			     				     <div class="complete-side">
+										<div class="complete-title">
+											Created Date Time
+										</div>
+										<p>  Mar 6, 2018 -  AM 10:36:22 </p>
+										 
+									</div>
+  			     				
+  			     				
+  			     						
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+  			     					
+  			     					
+   			     				 
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  USD Dollars  </p>
+ 									</div>
+
+
+   			     					 
+
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-5 complete-side-details-cont">
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											 
+											
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00  ‬</span></div>
+												</div>
+											</dd>
+										 
+											
+											
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num total" > ‪55.00 USD‬ </span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     			 
+   			     				
+   			     				
+   			     			 
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download" > </span>
+   			     					<span> Download PDF </span>
+   			     				</a>
+   			     					
+   			     							
+  	      				 									
+  			     											
+   			     											
+   			     			 
+   			     												
+   			     			 
+   			     												
+   			     				<a href="#" class="refund-btn">
+   			     					<span class="icon ion-android-cancel" > </span>
+   			     					<span> Cancel bill </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     		</div>
+    			     	
+    			     
+    			 </div>
+   			     	
+   			     	
+   			     	      	   	   	
+    			  
+    				    
+  			    <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-5" aria-expanded="false" aria-controls="complete-row-5">
+   			     	<div class="side">
+   			     		 
+    			     	  <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/master.svg" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span> 
+				     <span class="status status-refunded       ">   Refunded        </span>
+ 			     		 </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+    			     	 
+    			     	 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-5">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-5" aria-expanded="false" aria-controls="complete-row-5">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by  
+										</div>
+ 										<p> Name </p>
+									</div>
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+										 Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>   Here is a description for the invoice </p>
+ 									</div>
+  			     					
+   			     					
+   			     					 
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  USD Dollars  </p>
+ 									</div>
+
+
+   			     			
+  			     				     <div class="complete-side">
+										<div class="complete-title">
+											Expiry Date
+										</div>
+										<p>  Mar 6, 2018 -  AM 10:36:22 </p>
+										 
+									</div>
+  			     				
+
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-5 complete-side-details-cont">
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											 
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00  ‬</span></div>
+												</div>
+											</dd>
+										 
+											
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num total" > ‪55.00 USD‬ </span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				<a href="#" class="copy-btn">
+   			     					<span class="icon ion-ios-copy" > </span>
+   			     					<span> Copy link </span>
+   			     				</a>
+   			     				
+   			     					
+   			     				
+   			     				
+   			     				
+   			     				<span class="options-cont-dropdown dropdown">
+					
+					
+					 
+  <a  class="share-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-share" > </span>
+   			     					<span> Share link   </span>
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" class="fb" > <span class="fa fa-facebook" > </span>   </a> 
+   <a href="#" class="tw" > <span class="fa fa-twitter" > </span>   </a> 
+   <a href="#" class="wa" > <span class="fa fa-whatsapp" > </span>   </a> 
+   
+   </li>
+  
+  </ul>
+ 
+			
+				</span>
+  			     					
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download" > </span>
+   			     					<span> Download PDF </span>
+   			     				</a>
+   			     					
+   			     							
+  			     											
+  		 <span class="options-cont-dropdown report dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-alert" > </span>
+   			     					<span> Report  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" >  Customer Can't pay  </a> 
+    </li>
+    
+     <li>
+   <a href="#" >  Customer says it's paid   </a> 
+    </li>
+    
+   
+  </ul>
+ 
+			
+				</span>
+  			     											
+  			     			<span class="options-cont-dropdown truck-bill dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-android-bicycle" > </span>
+   			     					<span> Truck Bill  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <div class="title">Sent:  </div>
+   <p>  Mar 6, 2018 - 10:00 Am  </p> 
+    </li>
+    
+     
+       <li>
+       <div class="title">
+       	Delivered:
+       </div>
+       <p> Mar 6, 2018 - 10:00 Am  </p> 
+    </li>
+    
+    
+      <li>
+        <div class="title"> Number of Views</div>
+         <p> 2 Views   </p>
+    </li>
+    
+      <li>
+      <div class="title">Payment Attempt: </div>
+       <p>  Mar 6, 2018 - 10:00 Am </p>   
+    </li>
+     
+      <li>
+      
+      
+       
+          <a  class="set-reminder-btn" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >
+   	<span class="icon ion-android-alarm-clock" > </span>
+   			     					<span>   Set Reminder </span>
+   			     					
+  </a>
+   
+      
+
+    </li>
+    
+   
+  </ul>
+			
+				</span>
+  			     											
+  			     											
+   			     											
+   			     			 
+   			     												
+   			     			 
+   			     												
+   			     				<a href="#" class="refund-btn">
+   			     					<span class="icon ion-android-cancel" > </span>
+   			     					<span> Cancel bill </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     		</div>
+    			     	
+    			     
+    			 </div>
+   			     	
+   			    
+  			          			
+  			          			 	   <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-6" aria-expanded="false" aria-controls="complete-row-6">
+   			     	<div class="side">
+   			     		 
+    			     	 	  <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/master.svg" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span> 
+				      <span class="status status-cancelled         ">   Cancelled          </span>
+ 					  
+ 			     		 </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+    			     	 
+    			     	 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-6">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-6" aria-expanded="false" aria-controls="complete-row-6">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by 
+										</div>
+ 										<p> Name </p>
+									</div>
+			     					
+			     					
+ 			     					<div class="complete-side">
+										<div class="complete-title">
+											 Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											Description
+										</div>
+										<p>  here your text </p>
+ 									</div>
+   			     					
+   			     					
+   			     				 
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  USD Dollars  </p>
+ 									</div>
+
+ 
+  			     					
+  			     				     <div class="complete-side">
+										<div class="complete-title">
+											Expiry Date
+										</div>
+										<p>  Mar 6, 2018 -  AM 10:36:22 </p>
+										 
+									</div>
+  			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			     				
+   			     				<div class="col-md-5 complete-side-details-cont">
+									<div class="complete-side complete-side-details">
+										<dl><dt class="complete-title" >Details</dt>
+											 
+											<dd>
+												<div class="row">
+													<div class="col-xs-6"><span >Amount</span></div>
+													<div class="col-xs-6  num"><span >‪49.00  ‬</span></div>
+												</div>
+											</dd>
+											
+										 
+											
+ 										</dl>
+									</div>
+  			     				
+  			     				<div class="complete-side">
+												<dd>
+													<div class="row">
+														<div class="col-xs-6 "><span  class="complete-title " >Total</span></div>
+														<div class="col-xs-6  num "><span class="complete-title num total" > ‪55.00 USD‬ </span></div>
+													</div>
+												</dd>
+											</div>
+   			     				</div>
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				<a href="#" class="copy-btn">
+   			     					<span class="icon ion-ios-copy" > </span>
+   			     					<span> Copy link </span>
+   			     				</a>
+   			     				
+   			     					
+   			     				
+   			     				
+   			     				
+   			     				<span class="options-cont-dropdown dropdown">
+					
+					
+					 
+  <a  class="share-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="icon ion-share" > </span>
+   			     					<span> Share link   </span>
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" class="fb" > <span class="fa fa-facebook" > </span>   </a> 
+   <a href="#" class="tw" > <span class="fa fa-twitter" > </span>   </a> 
+   <a href="#" class="wa" > <span class="fa fa-whatsapp" > </span>   </a> 
+   
+   </li>
+  
+  </ul>
+ 
+			
+				</span>
+  			     					
+   			     					
+   			     				<a href="#" class="pdf-download-btn">
+   			     					<span class="icon ion-android-download" > </span>
+   			     					<span> Download PDF </span>
+   			     				</a>
+   			     					
+   			     							
+  			     											
+  		 <span class="options-cont-dropdown report dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-alert" > </span>
+   			     					<span> Report  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <a href="#" >  Customer Can't pay  </a> 
+    </li>
+    
+     <li>
+   <a href="#" >  Customer says it's paid   </a> 
+    </li>
+    
+   
+  </ul>
+ 
+			
+				</span>
+  			     											
+  			     			<span class="options-cont-dropdown truck-bill dropdown">
+					
+					
+					 
+  <a  class="report-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   	<span class="icon ion-android-bicycle" > </span>
+   			     					<span> Truck Bill  </span>
+   			     					
+  </a>
+  
+  
+ 
+   			     				
+   			     				
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+   <li>
+   <div class="title">Sent:  </div>
+   <p>  Mar 6, 2018 - 10:00 Am  </p> 
+    </li>
+    
+     
+       <li>
+       <div class="title">
+       	Delivered:
+       </div>
+       <p> Mar 6, 2018 - 10:00 Am  </p> 
+    </li>
+    
+    
+      <li>
+        <div class="title"> Number of Views</div>
+         <p> 2 Views   </p>
+    </li>
+    
+      <li>
+      <div class="title">Payment Attempt: </div>
+       <p>  Mar 6, 2018 - 10:00 Am </p>   
+    </li>
+     
+      <li> 
+        
+       
+          <a  class="set-reminder-btn" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >
+   	<span class="icon ion-android-alarm-clock" > </span>
+   			     					<span>   Set Reminder </span>
+   			     					
+  </a>
+    
+    </li>
+    
+   
+  </ul>
+			
+				</span>
+  			     											
+  			     											
+   			     											
+   			     			 
+   			     												
+   			     			 
+   			     												
+   			     				<a href="#" class="refund-btn">
+   			     					<span class="icon ion-android-cancel" > </span>
+   			     					<span> Cancel bill </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				
+   			     			</div>
+   			     			
+   			     		</div>
+    			     	
+    			     
+    			 </div>
+   			     	
+   			     	 	
+   			             			 	   <div class="complete-row-separate" >
+   			     
+   			     
+   			     <div class="complete-table-separate-top" data-toggle="collapse" data-target="#complete-row-7" aria-expanded="false" aria-controls="complete-row-7">
+   			     	<div class="side">
+   			     		 
+    			     	
+   			     	   <div class="complete-row header-row ">
+   			     	<div class=" clearfix" >
+   			     	
+   			     		
+   			     	
+   			     		 
+						<div class="invoice-id" >
+						 <span class="heading-tb"  > Invoice ID </span>
+						 #26546
+						</div>
+ 
+   			     		 
+						<div class="Date" >
+						 <span class="heading-tb"  > Date </span>
+						  Mar 6, 2018
+						</div>
+ 
+   			     	
+   			     		<div class="amount">
+							<span class="heading-tb" > Amount </span>
+				    240,00 KWD
+					    </div>
+  			     		
+   			     		
+   			     		 
+   			     		
+   			     		
+   			     		<div class="pay-method">
+						<span class="heading-tb"  > Payment Method</span>
+				    <div class="complete-payment-type">
+							 <span class="icon card "> <img src="img/master.svg" alt="visa"> </span>
+							</div>
+					    </div>
+  			     		
+   			     		
+   			     		<div class="recipient-name">
+						<span class="heading-tb"  >  Paid by   </span>
+				    Ahmed Mohammed
+					    </div>
+  			     		
+   			     		
+   			     		
+   			     		<div class="recipient-status">
+						<span class="heading-tb" >  Status </span> 
+ 						<span class="status status-expired           ">   Expired            </span>
+ 					  
+ 			     		 </div>
+  			     		
+   			     	 
+   			     	 
+   			     	 
+   			        
+   			        
+   			        </div>
+   			     		 
+    			     	
+    			     	</div> 
+    			     	 
+    			     	 
+    			     	 
+   			     	</div>
+   			     	
+   			     	<div class="side-2">
+   			     	
+   			     	<div class="options options-tooltip">
+   			     		<span class="icon ion-more"> </span>
+   			     		<div class="tooltip-cont">
+   			     		 Details
+   			     		</div>
+ 					    </div>
+ 
+   			     	</div>
+   			     </div>
+   			     
+   			     
+   			     <div class="complete-row-details clearfix collapse" id="complete-row-7">
+   			     		 
+   			     		 
+   			     		<div class="close-row" data-toggle="collapse" data-target="#complete-row-7" aria-expanded="false" aria-controls="complete-row-7">
+   			     			<span class="ion-android-close" ></span>
+   			     		</div>
+   			     			 
+   			     			 <div class=" clearfix ">
+   			     				<div class="col-md-7 ">
+   			     				<div class="row">
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Paid by  
+										</div>
+ 										<p> Name </p>
+									</div>
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+										 Email
+										</div>
+ 										<p> support@info.com </p>
+									</div>
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Mobile No.
+
+										</div>
+ 										 
+ 										
+ 										<div class="complete-user-mob">
+   			     			<span class="flag-icon flag-icon-kw"></span>
+   			     			<span class="num">  +96596000000 </span>
+   			     			</div>
+									</div>
+ 			     				
+ 			     				
+ 			     				
+ 			     				<div class="complete-side">
+										<div class="complete-title">
+											Paid Date &amp; Time
+										</div>
+								 
+								 
+						  <p>
+						  	<span>  Mar 6, 2018  </span>   
+						  	<br>
+						  	<span> 10:00 Am. </span>
+						  </p>
+						 
+ 									</div>
+			     				
+ 			     				
+  			     				
+  			     				
+   			     					</div>
+   			     					
+   			     					<div class="col-md-6">
+   			     						<div class="complete-side">
+										<div class="complete-title">
+											Transaction ID
+										</div>
+										<p>  #26546 </p>
+ 									</div>
+   			     					
+   			     					
+   			     				 
+
+   			     					
+   			     					<div class="complete-side">
+										<div class="complete-title">
+											 Currency
+										</div>
+										<p>  USD Dollars  </p>
+ 									</div>
+ 									
+ 									
+ 									
+  			     				     <div class="complete-side">
+										<div class="complete-title">
+											Expiry Date
+										</div>
+										<p>  Mar 6, 2018 -  AM 10:36:22 </p>
+										 
+									</div>
+  			     				
+
+ 
+
+   			     					</div>
+   			     					
+   			     					
+   			     				</div>
+									
+									
+  			     				
+   			     				</div>
+   			     				
+   			     			 
+   			     				
+   			     			</div>
+   			     			
+   			     			
+   			     			<div class="options-cont clearfix">
+   			     				<a href="#" class="print-btn">
+   			     					<span class="icon ion-printer" > </span>
+   			     					<span> Print   </span>
+   			     				</a>
+   			     				
+   			     				
+   			     				<a href="#" class="copy-btn">
+   			     					<span class="icon ion-ios-copy" > </span>
+   			     					<span> Copy link </span>
+   			     				</a>
+   			     				
+   			     			 
+   			     			</div>
+   			     			
+   			     		</div>
+    			     	
+    			     
+    			 </div>
+   			     	
+   			        			
+    			     	
+   			     </div>
+   			     
+   			     
+   			     <div class="see-more">
+    				<a href="#" class="see-more-btn">
+     				<span> View more </span>
+    				</a>
+    			</div>
+    			 
+     		</div>
+     		
+     		
+     		
+   			</div>
+   		</div>
+   		
+   	</div>
+   </div>
+  
+  <!--	 footer-->
+	 	<div id="footer">
+ 
+		<div class="footer footer-in  ">
+	 
+			
+               
+				<div class="list-footer-box ">
+					
+			 
+               
+ 					<div class="container  ">
+ 					<div class="row">
+                
+                <div class="clearfix"></div> 
+               
+               
+                
+                 <div class="col-md-12 footer-logos">
+                  
+                 		<a href="index.html" class="p-f-logo"> <img src="img/logo-w.svg" alt=""> </a>
+                 		<span class="payment-logo" > 
+                 		<img src="img/knet.png" alt="knet">
+                 		<img src="img/visa-logo.svg" alt="visa">
+                 		<img src="img/master.svg" alt="master">
+                 		</span>
+                 		<div class="secure-logos">
+                 			<img src="img/secure/thawte.svg" alt="thawte">
+                 			<img src="img/secure/visa.svg" alt="visa">
+                 			<img src="img/secure/mater.svg" alt="mater">
+                 		</div>
+                  
+                 </div>
+                  
+                  
+                    <div class="clearfix"></div>
+					</div>
+					
+					
+					<div class="copyrights-cont clearfix">
+			 
+		 
+			   		
+			   			<p class="copyright">   2018 © Payzaty. All Rightd Reserved   <span class="flag-icon flag-icon-kw"></span> </p>
+			   	 
+			   	 
+			   	 <ul class="ul-footer-bot-list">
+			   	 	<li><a href="#"> Terms & Conditions  </a> </li>
+			   	 	<li><a href="#"> Privacy Policy    </a> </li>
+			   	 	<li><a href="#"> Site Map </a> </li>
+			   	 </ul>
+			   	 
+			   	 <ul class="sm-list">
+			   					<li> <a href="#" class="sm-fb"> <i class="fa fa-facebook"> </i> </a> </li>
+			   					<li> <a href="#" class="sm-tw"> <i class="fa fa-twitter"> </i></a> </li>
+			   					<li> <a href="#" class="sm-yt"> <i class="fa fa-youtube-play"> </i></a> </li>
+			   					<li> <a href="#" class="sm-ins"> <i class="fa fa-instagram"> </i></a> </li>
+			   					 
+			   				</ul>
+			   		 
+			  
+		 
+					
+				</div>
+			
+					
+ 					</div>
+
+				
+				</div>
+				
+				
+				
+
+			 
+		</div>
+	</div>
+ 
+
+	</div>
+    <!-- End Content -->
+	
+</div>
+
+ 
+ 
+ 
+ <div class="collapse add-invoice-report-box collapse-fixed-full" id="collapse-report-1">
+   <div class="close-row" data-toggle="collapse" data-target="#collapse-report-1" aria-expanded="true" aria-controls="collapse-report-1">
+   			     			<span class="ion-android-close"></span>
+   			     		</div>
+   			     		
+    <div class="container">
+     
+     <div class="reg-box-cont">
+	 			  	 
+	 			  	 <div class="heading   center">
+    			<h3 class="box-title"> Add invoice report </h3>
+    	 
+     		</div>
+    		
+	 			  
+	 		  	
+                             	
+                             	
+	 			  	<form role="form"   method="post" action="">
+    
+   
+    
+<!--  info   -->
+  <div class="panel panel-default">
+   
+  <div class="panel-body">
+   
+     
+<!--     col  -->
+    
+     
+    
+    
+    
+     
+	  
+	  <div class="form-group clearfix req-opt rel-pos">
+    <label class="form-label" for="f1">  Your Message </label>
+  
+    <textarea class="form-control" placeholder="Message" rows="8" > </textarea>               
+                                 
+   </div> 
+   
+	  
+ 
+                         
+                                
+                                
+                                  
+                                 
+                              
+                                
+       
+             
+              
+       
+            
+           
+         
+             
+       
+       
+               
+         
+             
+       
+        
+             
+         
+         
+         <div class="app-btn-cont register-box  clearfix">
+          	
+         	<button type="submit" class="btn btn-blue  btn-dark btn-border  " >    Add Report     </button>
+    
+         </div>
+    </div>
+    
+    
+    
+</div>
+   
+  
+</form>
+</div>
+	 		 
+	 		 
+    </div>
+</div>
+
+
+<!--Modal-->
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">    Set Reminder  </h4>
+      </div>
+      <div class="modal-body">
+         
+         
+            <p> Are you suer want to set reminder </p>
+       
+ 									
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Yes</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal"> No </button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- owl -->
+<script src="plugins/OwlCarousel/js/owl.carousel.js"></script>
+<!--	date-picker-->
+<script src="plugins/bs-datetimepicker/js/bootstrapValidator.min.js"> </script>
+<script src="plugins/bs-datetimepicker/js/moment.min.js"> </script>
+<script src="plugins/bs-datetimepicker/js/bootstrap-datetimepicker.min.js"> </script>
+
+	
+	 
+<script>
+	$(document).ready(function() {
+		 
+		
+		
+		
+		var bindDateRangeValidation = function (f, s, e) {
+    if(!(f instanceof jQuery)){
+			console.log("Not passing a jQuery object");
+    }
+  
+    var jqForm = f,
+        startDateId = s,
+        endDateId = e;
+  
+    var checkDateRange = function (startDate, endDate) {
+        var isValid = (startDate != "" && endDate != "") ? startDate <= endDate : true;
+        return isValid;
+    }
+
+    var bindValidator = function () {
+        var bstpValidate = jqForm.data('bootstrapValidator');
+        var validateFields = {
+            startDate: {
+                validators: {
+                    notEmpty: { message: 'This field is required.' },
+                    callback: {
+                        message: 'Start Date must less than or equal to End Date.',
+                        callback: function (startDate, validator, $field) {
+                            return checkDateRange(startDate, $('#' + endDateId).val())
+                        }
+                    }
+                }
+            },
+            endDate: {
+                validators: {
+                    notEmpty: { message: 'This field is required.' },
+                    callback: {
+                        message: 'End Date must greater than or equal to Start Date.',
+                        callback: function (endDate, validator, $field) {
+                            return checkDateRange($('#' + startDateId).val(), endDate);
+                        }
+                    }
+                }
+            },
+          	customize: {
+                validators: {
+                    customize: { message: 'customize.' }
+                }
+            }
+        }
+        if (!bstpValidate) {
+            jqForm.bootstrapValidator({
+                excluded: [':disabled'], 
+            })
+        }
+      
+        jqForm.bootstrapValidator('addField', startDateId, validateFields.startDate);
+        jqForm.bootstrapValidator('addField', endDateId, validateFields.endDate);
+      
+    };
+
+    var hookValidatorEvt = function () {
+        var dateBlur = function (e, bundleDateId, action) {
+            jqForm.bootstrapValidator('revalidateField', e.target.id);
+        }
+
+        $('#' + startDateId).on("dp.change dp.update blur", function (e) {
+            $('#' + endDateId).data("DateTimePicker").setMinDate(e.date);
+            dateBlur(e, endDateId);
+        });
+
+        $('#' + endDateId).on("dp.change dp.update blur", function (e) {
+            $('#' + startDateId).data("DateTimePicker").setMaxDate(e.date);
+            dateBlur(e, startDateId);
+        });
+    }
+
+    bindValidator();
+    hookValidatorEvt();
+};
+
+
+$(function () {
+    var sd = new Date(), ed = new Date();
+  
+    $('#startDate').datetimepicker({ 
+      pickTime: false, 
+      format: "YYYY/MM/DD", 
+      defaultDate: sd, 
+      maxDate: ed 
+    });
+  
+    $('#endDate').datetimepicker({ 
+      pickTime: false, 
+      format: "YYYY/MM/DD", 
+      defaultDate: ed, 
+      minDate: sd 
+    });
+
+    //passing 1.jquery form object, 2.start date dom Id, 3.end date dom Id
+    bindDateRangeValidation($("#form"), 'startDate', 'endDate');
+});
+		
+		
+		
+		$('.input-daterange input').each(function() {
+    $(this).datepicker('clearDates');
+});
+		
+	});
+</script>
+ 
+   
+</body>
+</html>

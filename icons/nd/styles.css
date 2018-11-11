@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "network";
+  src:url("fonts/network.eot");
+  src:url("fonts/network.eot?#iefix") format("embedded-opentype"),
+    url("fonts/network.woff") format("woff"),
+    url("fonts/network.ttf") format("truetype"),
+    url("fonts/network.svg#network") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "network" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "network" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-network-add-network-drive:before {
+  content: "\61";
+}
+.icon-network-antena-signal-3:before {
+  content: "\62";
+}
+.icon-network-cloud-add:before {
+  content: "\63";
+}
+.icon-network-cloud-confirm:before {
+  content: "\64";
+}
+.icon-network-cloud-connection:before {
+  content: "\65";
+}
+.icon-network-cloud-connection-2:before {
+  content: "\66";
+}
+.icon-network-cloud-connection-4:before {
+  content: "\67";
+}
+.icon-network-cloud-delete:before {
+  content: "\68";
+}
+.icon-network-cloud-download:before {
+  content: "\69";
+}
+.icon-network-cloud-favorites:before {
+  content: "\6a";
+}
+.icon-network-cloud-file-search:before {
+  content: "\6b";
+}
+.icon-network-cloud-links:before {
+  content: "\6c";
+}
+.icon-network-cloud-peers:before {
+  content: "\6d";
+}
+.icon-network-cloud-refresh:before {
+  content: "\6e";
+}
+.icon-network-cloud-remove:before {
+  content: "\6f";
+}
+.icon-network-cloud-secure:before {
+  content: "\70";
+}
+.icon-network-cloud-signal:before {
+  content: "\71";
+}
+.icon-network-cloud-upload:before {
+  content: "\72";
+}
+.icon-network-communication-hub:before {
+  content: "\73";
+}
+.icon-network-computer-connection:before {
+  content: "\74";
+}
+.icon-network-connected-computers:before {
+  content: "\75";
+}
+.icon-network-connected-servers:before {
+  content: "\76";
+}
+.icon-network-connected-servers-2:before {
+  content: "\77";
+}
+.icon-network-connection-cable:before {
+  content: "\78";
+}
+.icon-network-connection-route:before {
+  content: "\79";
+}
+.icon-network-connection-tree:before {
+  content: "\7a";
+}
+.icon-network-database:before {
+  content: "\41";
+}
+.icon-network-database-add:before {
+  content: "\42";
+}
+.icon-network-database-delete:before {
+  content: "\43";
+}
+.icon-network-database-links:before {
+  content: "\44";
+}
+.icon-network-database-refresh:before {
+  content: "\45";
+}
+.icon-network-database-remove:before {
+  content: "\46";
+}
+.icon-network-database-signal:before {
+  content: "\47";
+}
+.icon-network-delete-network-drive:before {
+  content: "\48";
+}
+.icon-network-desktop-connection:before {
+  content: "\49";
+}
+.icon-network-ethernet-port:before {
+  content: "\4a";
+}
+.icon-network-global-network:before {
+  content: "\4b";
+}
+.icon-network-home-connection:before {
+  content: "\4c";
+}
+.icon-network-home-wireless-connection:before {
+  content: "\4d";
+}
+.icon-network-hub:before {
+  content: "\4e";
+}
+.icon-network-link-network-drive:before {
+  content: "\4f";
+}
+.icon-network-main-antena:before {
+  content: "\50";
+}
+.icon-network-network-confirm:before {
+  content: "\51";
+}
+.icon-network-network-drive:before {
+  content: "\52";
+}
+.icon-network-network-folders:before {
+  content: "\53";
+}
+.icon-network-network-links:before {
+  content: "\54";
+}
+.icon-network-network-refresh:before {
+  content: "\55";
+}
+.icon-network-network-signal:before {
+  content: "\56";
+}
+.icon-network-network-signal-4:before {
+  content: "\57";
+}
+.icon-network-network-speed:before {
+  content: "\58";
+}
+.icon-network-no-network:before {
+  content: "\59";
+}
+.icon-network-phone-antena:before {
+  content: "\5a";
+}
+.icon-network-refresh-network-drive:before {
+  content: "\30";
+}
+.icon-network-remove-network-drive:before {
+  content: "\31";
+}
+.icon-network-router:before {
+  content: "\32";
+}
+.icon-network-search-signal:before {
+  content: "\33";
+}
+.icon-network-signal-antena:before {
+  content: "\34";
+}
+.icon-network-signal-waves:before {
+  content: "\35";
+}
+.icon-network-wifi-connected:before {
+  content: "\36";
+}
+.icon-network-wifi-disconnected:before {
+  content: "\37";
+}
+.icon-network-wifi-network-drive:before {
+  content: "\38";
+}
+.icon-network-wifi-signal:before {
+  content: "\39";
+}
+.icon-network-wifi-signal-2:before {
+  content: "\21";
+}
+.icon-network-wifi-transfer:before {
+  content: "\22";
+}

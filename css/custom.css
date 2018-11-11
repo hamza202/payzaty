@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .invoice-item-table .complete-row.header-row .Description{
+        width: 60%;
+    }
+    .Description{
+        width: 60%;
+    }
+    .Quantity{
+        width: 40%;
+    }
+}

@@ -1,0 +1,902 @@
+body {
+	font-family: 'ns', sans-serif;
+	/*	font-family: 'Open Sans Condensed', sans-serif;*/
+	overflow-x: hidden;
+	font-weight: 400;
+}
+
+
+/*header*/
+   ul.user-acc-opt {
+    float:  left;
+    margin-top: 27px !important;
+}
+
+
+.main-nav ul li a {
+    font-size: 14px;
+}
+
+.main-nav nav >  ul.main-nav-list-normal li a {
+    padding: 35px 0;
+}
+
+
+.header-main .navbar-header {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.user-acc {
+    margin-left:  0;
+    margin-right:  15px !important;
+}
+
+.main-nav-list-normal li.open .dropdown-menu {
+    right:  0;
+    left:  auto;
+}
+
+.main-nav-list-normal li ul.dropdown-menu li a {
+    border-left:  0;
+    border-right: 3px solid transparent;
+    font-size: 13px;
+}
+
+li.user-acc.lang a span:first-child {
+    font-size: 14px;
+    top: 0;
+}
+
+.header-main .navbar-brand img.slogo-payzaty {
+    margin-right:  5px;
+    margin-left: 0;
+}
+
+/*main slider*/
+.main-content-srv h3 {font-weight: 400;}
+
+.main-content-srv h3 span {
+    line-height: 1.6;
+}
+
+.main-content-srv h2 {
+    font-family:  ns;
+    font-weight: 300;
+}
+
+.main-content-srv p {
+    color: #81aff6;
+}
+
+.feature-box .title {
+    font-weight:  400;
+}
+ 
+
+
+.story-title  ,
+.box-title {
+    font-weight:  400;
+    text-align: right !important;
+}
+
+
+/*payment slider*/
+.payment-side-1 {
+    padding:  50px 15px 30px 60px;
+    border-radius:  0;
+    border-top-left-radius:  100px;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    right:  auto;
+    left: -120px;
+}
+
+.owl-prev .ion-ios-arrow-right:before {
+    content: "\f3d2";
+}
+
+.payment-side-2 {
+    padding-right: 90px;
+    padding-left: 20%;
+}
+
+.payment-side-2 .heading.heading-sm {
+    text-align:  right;
+}
+
+.checkbox label::before {
+    left:  auto;
+    right:  0;
+}
+
+.reg-box-cont .checkbox label {
+    font-weight:  300;
+}
+
+.register-box .btn {
+    font-weight:  400;
+}
+
+/*footer*/
+.payment-side-1 {
+    padding:  50px 15px 30px 60px;
+    border-radius:  0;
+    border-top-left-radius:  100px;
+}
+
+.owl-theme .owl-nav .owl-prev {
+    right:  auto;
+    left: -120px;
+}
+
+.owl-prev .ion-ios-arrow-right:before {
+    content: "\f3d2";
+}
+
+.payment-side-2 {
+    padding-right: 90px;
+    padding-left: 20%;
+}
+
+.payment-side-2 .heading.heading-sm {
+    text-align:  right;
+}
+
+.checkbox label::before {
+    left:  auto;
+    right:  0;
+}
+
+.reg-box-cont .checkbox label {
+    font-weight:  300;
+}
+
+.register-box .btn {
+    font-weight:  400;
+}
+
+.list-footer-box .app-cont h3 {
+    font-weight:  400;
+}
+
+.list-footer-box h3 {
+    font-weight:  400;
+}
+
+.footer-logos {
+    text-align:  left;
+}
+
+.payment-logo {
+    margin-left:  0;
+    margin-right:  10px;
+    border-radius:  50px 0 0 50px;
+}
+
+.secure-logos {
+    text-align:  left;
+}
+
+.secure-logos img {
+    margin:  0 24px 0 0;
+}
+
+.copyright {
+    font-weight:  300;
+    font-size:  13px;
+}
+
+.list-footer-box ul li a {
+    font-size: 13px;
+}
+
+.checkbox label::after {
+    left: auto;
+    top: 0;
+    margin-left: 0;
+    padding-left: 0px;
+    right:  0;
+    padding-right: 3px;
+}
+
+/*change pass*/
+.reg-box-cont .box-title {
+    font-family:  ns;
+    font-weight:  400;
+    /* text-align:  right; */
+}
+
+.reg-box-cont label {
+    font-size: 15px;
+    text-align:  right;
+}
+ 
+input.form-control, select.form-control, textarea.form-control {
+    text-align:  right;
+    direction:  rtl;
+}
+
+.login-box-2 .register-box > div {
+    float:  left;
+}
+
+.login-box-2 .register-box-side-1 {
+    left:  auto;
+    right:  0;
+    top: 0;
+}
+
+.scroll-fixed.navbar.navbar-default {
+}
+
+.header-signin-2 .scroll-fixed.navbar.navbar-default:before {
+    left:  0;
+    right:  auto;
+}
+
+.login-box-2 .reg-box-cont .heading {
+    text-align:  right;
+}
+
+.register-box p {
+    font-weight:  400;
+}
+
+
+/*************************/
+/*telinput rtl*/
+/*************************/
+.login-box-2 .login-reg-box {
+    text-align:  right;
+}
+
+.register-box {
+    font-weight:  400;
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    padding-right: 52px;
+    padding-left: 6px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    left:  auto;
+    right:  0;
+}
+
+.intl-tel-input .selected-flag {
+    padding:  0 8px 0 0;
+}
+
+.intl-tel-input .selected-flag .iti-arrow {
+    left:  6px;
+    right:  auto;
+}
+
+.intl-tel-input .country-list .country.highlight , .intl-tel-input .country-list .country {
+    text-align:  right;
+}
+
+
+/*************************/
+/*telinput rtl*/
+/*************************/
+
+/* signup */
+.signup-page .heading {
+    text-align:  center;
+}
+
+.active-account-list .active-account-title , .complete-reg {
+    font-weight:  400;
+}
+
+.active-account-list li {
+    float:  right;
+}
+
+.active-account-list li:after {
+    left:  auto;
+    right:  -50%;
+}
+
+ 
+
+ select.form-control {
+    padding-right: 12px !important;
+    padding-left:  40px;
+    background-position: calc(100% - (100% - 8px)) 50% !important;
+}
+
+/********************/
+/* logged menu */
+.main-nav-list-large li, .main-nav-list-normal > li {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.header-inner-logged .bot-header a {
+    font-weight:  400;
+    font-size:  14px !important;
+}
+
+.header-inner-logged .navbar-brand img:first-child {
+    margin-left:  5px;
+    margin-right:  0;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal {
+    float:  left;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal .user-name {
+    font-size:  13px;
+    font-weight:  400;
+    margin-left:  0;
+    margin-right:  5px;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal > li > a span.arrow {
+    margin-left:  0;
+    margin-right:  3px;
+}
+
+.contact-dropdown .call-us {
+    font-size:  13px;
+}
+
+li.user-acc.lang a {
+    padding: .2em 1em;
+    font-size: 13px;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal > li.user-acc {
+    margin-right:  0 !important;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal > li:after {
+    left:  auto;
+    right:  -1px;
+}
+
+
+.header-inner-logged .top-header ul.main-nav-list-normal .dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.contact-dropdown .call-us {
+    padding: 14px 10px 10px !important;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal .contact-dropdown .dropdown-menu .title {
+    font-size:  16px;
+    margin-bottom:  5px;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal .contact-dropdown .dropdown-menu {
+    padding: 0 15px 0 0 !important;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal .contact-dropdown .dropdown-menu .app-btn-cont {
+    text-align:  right;
+}
+
+.header-inner-logged .top-header ul.main-nav-list-normal .contact-dropdown .dropdown-menu .cont-txt a {
+    font-size: 16px;
+}
+
+.customer-id {
+    padding-left:  0;
+    padding-right:  50px;
+    margin:  0;
+}
+
+.add-more-bank-btn
+{
+	font-weight: 400;
+}
+
+
+.main-nav ul li a span.ion-ios-arrow-down {
+    padding-left:  0;
+    padding-right:  5px;
+}
+
+.short-link-form .btn {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+
+/*complete table*/
+.stats-item .num {
+    font-weight:  400;
+}
+
+.stats-item .note {
+    font-weight:  400;
+}
+
+.filter-date label {
+    font-weight:  400;
+    font-size:  13px;
+    left:  auto;
+    right:  10px;
+}
+
+.startDate .icon, .endDate .icon {
+    left:  10px;
+    right:  auto;
+}
+
+.startDate input, .endDate input {
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+
+.endDate {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    border-left-color: #ddd;
+    border-right-color:  transparent;
+    border-top-right-radius:  0;
+    border-bottom-right-radius:  0;
+}
+
+.startDate {
+    border-top-right-radius:  6px;
+    border-bottom-right-radius:  6px;
+    border-top-left-radius:  0;
+    border-bottom-left-radius:  0;
+}
+
+.filters-inner-item > a {
+    font-size:  13px;
+    line-height:  57px;
+}
+
+.filters-inner-item > a > .icon {
+    top: 4px;
+}
+
+.filters-inner-search .header-search-btn.btn-search i {
+    top: 8px;
+}
+
+.complete-table .complete-row.header-row {
+    text-align:  right;
+}
+
+.complete-table-separate-top .pay-method .complete-payment-type {
+    text-align:  right;
+}
+
+
+.complete-table-separate-top .pay-method .complete-payment-type {
+    width: auto;
+    padding-left: 15px;
+    text-align: right;
+    padding-right: 0;
+}
+
+.complete-table-in .complete-row > div {
+    font-size:  14px;
+}
+
+
+
+.options-tooltip .tooltip-cont {
+    font-weight:  300;
+}
+
+.complete-row-separate .complete-row-details .complete-title {
+    font-size:  16px;
+    font-weight:  400;
+}
+
+.complete-user-mob .num {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.complete-side-details-cont {
+    padding-left:  30px;
+}
+
+.complete-row-details .close-row {
+    left:  16px;
+    right:  auto;
+}
+
+.complete-row-details .num {
+    text-align:  left;
+}
+
+.options-cont .icon {
+    margin-right:  0;
+    margin-left:  4px;
+}
+
+.options-cont a, .options-cont .btn {
+    font-size: 14px !important;
+    margin-right:  0;
+    margin-left:  10px;
+    font-weight:  400;
+}
+
+.see-more-btn
+{
+	font-weight: 400;
+}
+
+
+/*datepicker*/
+
+.bootstrap-datetimepicker-widget th {
+    font-weight:  400;
+}
+
+.bootstrap-datetimepicker-widget .dow {
+    font-weight:  400;
+}
+
+.bootstrap-datetimepicker-widget td.old, .bootstrap-datetimepicker-widget td.new {
+    font-weight:  400;
+}
+
+.bootstrap-datetimepicker-widget td.day {
+    font-weight:  400;
+}
+
+.bootstrap-datetimepicker-widget.bottom:before {
+    left:  80%;
+	opacity: 0;
+		
+}
+
+.bootstrap-datetimepicker-widget.bottom:after {
+    left:  80%;
+	opacity: 0;
+}
+
+/*datepicker*/
+
+
+.header-search-input {
+    padding:  0 15px 0 50px;
+}
+
+button.header-search-btn.btn-search {
+    left:  15px;
+    right:  auto;
+    border-left:  0;
+    border-right: 1px solid #ddd;
+    border-radius:  0;
+}
+
+/*footer in*/
+.footer-in .secure-logos {
+    float:  left;
+}
+
+.footer-in .footer-logos {
+    text-align:  right;
+}
+
+/*create-invoice*/
+   
+.create-invoice label {
+    font-size: 14px;
+}
+
+.add-more {
+    text-align:  right;
+}
+
+.add-more-btn {
+    font-weight:  400;
+    font-size:  14px;
+}
+
+.add-more-btn .icon {
+    top: 1px;
+    margin-right:  0;
+    margin-left:  .3em;
+}
+
+.invoice-item-table .complete-row {
+    border-left: 1px solid #ddd;
+    border-right:  4px solid #367ff4;
+}
+
+.invoice-item-table .complete-row .complete-row-summary .Description-Quantity {
+    border-right:  0;
+    border-left:  1px solid #ddd;
+}
+
+.invoice-item-table .complete-row .complete-row-summary .Description {
+    border-right:  0;
+    border-left: 1px solid #ddd;
+}
+
+.invoice-item-table .complete-row .complete-row-summary .Description-Quantity .Quantity  .form-control {
+    text-align: center;
+}
+
+.invoice-item-table .complete-row .complete-row-summary .Price {
+    padding:  0 0 0 50px  !important;
+}
+
+.invoice-item-table .complete-row .close-row {
+    right: auto;
+    left: 10px !important;
+}
+
+.invoice-sent-opts .form-group {
+    padding-right:  0;
+    padding-left:  30px;
+}
+
+.invoice-sent-opts .form-group .checkbox label {
+    font-size:  14px;
+}
+
+.invoice-footer-summary .Subtotal, .invoice-footer-summary .Total {
+    text-align:  left;
+}
+
+.invoice-footer-summary .Subtotal, .invoice-footer-summary .Total {
+    border-right:  0;
+    border-left: 1px solid #ddd;
+}
+
+.invoice-footer-summary .Discount {
+    border-left:  1px solid #ddd;
+    border-right:  0;
+}
+
+.invoice-footer-summary .clearfix.second .Discount-opts {
+    border-right:  0;
+    border-left: 1px solid #ddd;
+}
+
+/******************/
+.show-cust-invoice .complete-side-details .num {
+    text-align:  left;
+}
+
+.cust-pay-info-invoice .cust-pay-info-item:after {
+    left:  14px;
+    right:  auto;
+    content: "\f124";
+}
+
+ 
+.simple-field-data-mask + .icon {
+    left:  10px;
+    right:  auto;
+    top: 8px;
+}
+
+.payment-date-ccv .ccv-group {
+    margin-right:  -1px;
+    margin-left:  0;
+}
+
+.show-cust-invoice .complete-side.complete-side-total .num {
+    text-align:  left;
+}
+
+.invoice-top-side-2 {
+    text-align:  left;
+}
+
+
+/*****************/
+/* dashboard */
+ul.bank-acc li a {
+    font-weight:  400;
+    font-size: 15px;
+}
+
+ul.bank-acc {
+    text-align:  right;
+}
+
+ul.bank-acc li a .icon {
+    margin-right:  0;
+    margin-left:  .5cm;
+}
+
+.add-more-bank-btn {
+    font-size: 15px;
+}
+
+
+.heading-w-filter .filters-inner-item {
+    float:  left;
+}
+	
+
+.complete-date {
+    padding-left:  0;
+    padding-right:  5px;
+}
+
+.complete-row .complete-date .date-day {
+    font-weight:  300;
+}
+
+.complete-side-cont .complete-side {
+    text-align:  right;
+}
+
+.dashboard-box .complete-payment-type {
+    padding-left:  15px;
+    padding-right:  0;
+}
+
+.complete-row .complete-title {
+    font-size: 16px;
+}
+
+.complete-row .complete-amount {
+    font-weight:  400;
+}
+
+.complete-row .complete-amount span {
+}
+
+.complete-row .complete-row-summary {
+    border-right:  4px solid transparent;
+    border-left:  0;
+}
+
+.heading-w-filter .filters-inner-item li a
+{
+	font-weight: 400;
+	text-align: right;
+}
+
+ .collapse-fixed-full > .close-row span , .heading-p , .dashboard-item .type  ,.action-user-list li a {
+    font-weight:  400;
+}
+
+.heading.center 
+ .box-title {
+    text-align: center !important;
+}
+
+.action-user-list {
+    text-align:  left;
+}
+
+.action-user-list li a {
+    margin-right:  3em;
+    margin-left: 0;
+}
+
+
+.user-name {
+    margin-right:  1em;
+    margin-left:  0;
+}
+
+.user-avatar img {
+    left: auto;
+    right:  50%;
+    transform: translateX(50%);
+}
+
+.invoice-num-det .icon {
+    left:  12px;
+    right:  auto;
+}
+
+.review-invoice .complete-row .Price input.form-control {
+    font-weight:  400;
+}
+
+ .content-box-cont .user-info-box .customer-id {
+    font-weight:  400;
+}
+
+.content-box-cont label {
+    font-size:  16px;
+}
+
+/*radio rtl*/
+
+.radio label::before {
+    right:  0;
+    left:  auto;
+}
+
+.radio label::after {
+    right:  3px;
+    left:  auto;
+}
+/*radio rtl*/
+
+.ccv-label > strong {
+    font-weight: 400;
+}
+
+
+.cust-pay-info-invoice .pay-link-btn {
+    font-size: 18px !important;
+}
+
+
+.signup-page .heading .box-title {
+    text-align: center !important;
+}
+
+
+.heading.small {
+    text-align:  right;
+}
+
+.direct-link-opts label strong {
+    font-weight:  400;
+}
+
+.checkbox label {
+}
+
+.direct-link-checkbox .icon.card , .direct-link-radio .icon.card {
+    padding-right: 6px;
+    position:  relative;
+    top: -2px;
+}
+
+.direct-link-opts label {
+    font-size:  14px;
+}
+
+/*********/
+/*fees*/
+.heading.small {
+    text-align:  right;
+}
+
+.direct-link-opts label strong {
+    font-weight:  400;
+}
+ 
+
+.direct-link-checkbox .icon.card , .direct-link-radio .icon.card {
+    padding-right: 6px;
+    position:  relative;
+    top: -2px;
+}
+
+.direct-link-opts label {
+    font-size:  14px;
+}
+
+.direct-link-opts label strong {
+    font-size:  14px;
+    position:  relative;
+    top: -4px;
+    padding-right:  5px;
+}
+
+.btn-primary-pay, .btn-danger {
+    font-size: 16px !important;
+    font-weight:  400;
+}
+
+/***********/
+
+.invoice-num-det input.form-control
+{
+	padding-left: 40px;
+	padding-right: 12px;
+}
