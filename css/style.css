@@ -6567,6 +6567,9 @@ button.header-search-btn.btn-search {
 	.complete-row-separate .pay-method {
 		display: block;
 	}
+	.complete-row-separate .complete-row-details {
+		padding:15px !important;
+	}
 	.create-invoice label{
 		font-size: 14px;
 	}
