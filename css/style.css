@@ -6567,6 +6567,15 @@ button.header-search-btn.btn-search {
 	.complete-row-separate .pay-method {
 		display: block;
 	}
+	.stats-item .title span{
+		font-size: 16px;
+	}
+	.stats-item .num{
+		font-size: 16px;
+	}
+	.heading.small h3 {
+		font-size: 0.80em;
+	}
 	.complete-row-separate .complete-row-details {
 		padding:15px !important;
 	}
@@ -6595,7 +6604,7 @@ button.header-search-btn.btn-search {
 
 	.max-md-f-none {
 		float: none !important;
-		padding-top: 0;
+		padding-top: 0 !important;
 	}
 	.switch-field{
 		margin-bottom: 15px;
