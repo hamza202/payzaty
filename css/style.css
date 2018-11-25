@@ -6320,7 +6320,7 @@ span.Currency {
 	border-width: 5px 5px 0;
 	border-top-color: #367ff4;
 }
-.statement-section a.report-btn {
+a.report-btn {
 	margin-right: 10px;
 	border: 1px solid #ddd;
 	padding: 6px 18px;
@@ -6333,7 +6333,16 @@ span.Currency {
 	line-height: 1;
 	margin-top: -5px;
 }
-
+.options-cont .icon{
+	color: #fff;
+}
+.options-cont a:hover span:last-child {
+	text-decoration: none;
+	color: #fff;
+}
+.options-cont a:hover span{
+	color: #fff;
+}
 .options-cont-dropdown .dropdown-menu {
 	z-index: 99;
 }
@@ -6515,6 +6524,12 @@ button.header-search-btn.btn-search {
 .invoice-num-det label{
 	text-align: left;
 }
+.showcase-footable tr:nth-child(odd){
+	background: #f1f8ff;
+}
+.showcase-footable tr:nth-child(even){
+	background: #e2f1ff;
+}
 .add-more-btn{
 	display: block;
 	padding: 15px;
@@ -6646,4 +6661,21 @@ button.header-search-btn.btn-search {
 	.Statement-button-container .complete-side {
 		margin-top: 20px;
 	}
+}
+/*////////*/
+.heading-in{
+	margin-bottom: 15px;
+}
+.table.tabel-custom thead th{
+	border-bottom: 3px solid #367ff4;
+}
+.footable-filtering-search .input-group-btn{
+	width: 1% !important;
+}
+.form-group.footable-filtering-search ul.dropdown-menu.dropdown-menu-right{
+	right: 16px;
+	left: auto;
+}
+.footable-filtering-search .input-group-btn .btn:first-child:hover{
+	background: #367ff4;
 }
